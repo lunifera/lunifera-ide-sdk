@@ -7,7 +7,7 @@
 <!--# http://www.eclipse.org/legal/epl-v10.html -->
 <!--# -->
 <!--# Contributors: -->
-<!--# Cristiano Gavião - initial API and implementation -->
+<!--# Klemens Edler - initial API and implementation -->
 <!--#======================================================================= -->
 
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -17,11 +17,10 @@
 	<parent>
 		<groupId>org.lunifera.idesdk</groupId>
 		<artifactId>org.lunifera.idesdk</artifactId>
-		<version>0.0.1-SNAPSHOT</version>
+		<version>0.7.3-SNAPSHOT</version>
 	</parent>
 
 	<artifactId>org.lunifera.idesdk.feature.allinone</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
 	<packaging>eclipse-feature</packaging>
 
 	<dependencies>
@@ -70,4 +69,6 @@
 			</plugin>
 		</plugins>
 	</build>
+	<name>Lunifera IDE SDK</name>
+	<description>Installs all features required for Lunifera into the IDE</description>
 </project>

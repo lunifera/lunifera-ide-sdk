@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
-      id="org.lunifera.idesdk.allinone"
+      id="org.lunifera.idesdk.feature.allinone"
       label="%featureName"
-      version="2.12.2"
+      version="0.7.3.qualifier"
       provider-name="%providerName">
 
    <description>
@@ -17,8 +17,44 @@
       %license
    </license>
 
-   <includes
-         id="org.eclipse.xtext.sdk"
-         version="0.0.0"/>
+   <requires>
+      <import feature="org.eclipse.xtext.sdk" version="0.0.0"/>
+      <import feature="org.lunifera.dsl.feature.common" version="0.0.0"/>
+      <import feature="org.lunifera.dsl.feature.common.headless" version="0.0.0"/>
+      <import feature="org.lunifera.dsl.feature.common.headless.source" version="0.0.0"/>
+      <import feature="org.lunifera.dsl.feature.common.source" version="0.0.0"/>
+      <import feature="org.lunifera.dsl.feature.dto" version="0.0.0"/>
+      <import feature="org.lunifera.dsl.feature.dto.headless" version="0.0.0"/>
+      <import feature="org.lunifera.dsl.feature.dto.headless.source" version="0.0.0"/>
+      <import feature="org.lunifera.dsl.feature.dto.source" version="0.0.0"/>
+      <import feature="org.lunifera.dsl.feature.eclipse.ui" version="0.0.0"/>
+      <import feature="org.lunifera.dsl.feature.eclipse.ui.source" version="0.0.0"/>
+      <import feature="org.lunifera.dsl.feature.entities" version="0.0.0"/>
+      <import feature="org.lunifera.dsl.feature.entities.headless" version="0.0.0"/>
+      <import feature="org.lunifera.dsl.feature.entities.headless.source" version="0.0.0"/>
+      <import feature="org.lunifera.dsl.feature.entities.source" version="0.0.0"/>
+      <import feature="org.lunifera.dependencies.feature.vaadin" version="0.0.0"/>
+      <import feature="org.lunifera.dependencies.feature.atmosphere" version="0.0.0"/>
+      <import feature="org.lunifera.dependencies.feature.jetty.websockets" version="0.0.0"/>
+      <import feature="org.lunifera.dependencies.feature.vaadin" version="0.0.0"/>
+      <import feature="org.lunifera.xtext.builder.feature.ui.access" version="0.0.0"/>
+      <import feature="org.lunifera.xtext.builder.feature.ui.access.source" version="0.0.0"/>
+      <import feature="org.lunifera.xtext.builder.feature.types" version="0.0.0"/>
+      <import feature="org.lunifera.xtext.builder.feature.types.source" version="0.0.0"/>
+      <import feature="org.lunifera.runtime.feature.common" version="0.0.0"/>
+      <import feature="org.lunifera.runtime.feature.common.source" version="0.0.0"/>
+      <import feature="org.lunifera.runtime.web.feature.ecview.presentation.vaadin" version="0.0.0"/>
+      <import feature="org.lunifera.runtime.web.feature.ecview.presentation.vaadin.source" version="0.0.0"/>
+      <import feature="org.lunifera.runtime.web.feature.common" version="0.0.0"/>
+      <import feature="org.lunifera.runtime.web.feature.common.source" version="0.0.0"/>
+      <import feature="org.lunifera.runtime.web.feature.components" version="0.0.0"/>
+      <import feature="org.lunifera.runtime.web.feature.components.source" version="0.0.0"/>
+      <import feature="org.lunifera.runtime.web.feature.databinding" version="0.0.0"/>
+      <import feature="org.lunifera.runtime.web.feature.databinding.source" version="0.0.0"/>
+      <import feature="org.lunifera.mobile.vaadin.feature.ecview" version="0.0.0"/>
+      <import feature="org.lunifera.mobile.vaadin.feature.ecview.source" version="0.0.0"/>
+      <import feature="org.lunifera.mobile.vaadin.feature.touchkit" version="0.0.0"/>
+      <import feature="org.lunifera.mobile.vaadin.feature.touchkit.source" version="0.0.0"/>
+   </requires>
 
 </feature>

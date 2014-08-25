@@ -6,7 +6,7 @@
 <!--# http://www.eclipse.org/legal/epl-v10.html -->
 <!--# -->
 <!--# Contributors: -->
-<!--# Cristiano Gavião - initial API and implementation -->
+<!--# Klemens Edler - initial API and implementation -->
 <!--#======================================================================= -->
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
@@ -14,7 +14,7 @@
 	<parent>
 		<groupId>org.lunifera.idesdk</groupId>
 		<artifactId>org.lunifera.idesdk</artifactId>
-		<version>0.0.1-SNAPSHOT</version>
+		<version>0.7.3-SNAPSHOT</version>
 	</parent>
 
 	<artifactId>org.lunifera.idesdk.p2</artifactId>
@@ -33,7 +33,8 @@
 			<properties>
 				<ecfview-p2>http://lun.lunifera.org/downloads/p2/ecview/nightly/</ecfview-p2>
 				<lunifera.deployment.p2.origin.dir>${project.build.directory}/repository</lunifera.deployment.p2.origin.dir>
-				<associate.p2>${lunifera.build.eclipse.platform.p2.url},${orbit-site},${ecfview-p2}</associate.p2>
+				<xtext-p2>http://download.eclipse.org/modeling/tmf/xtext/updates/composite/releases/</xtext-p2>
+				<associate.p2>${lunifera.build.eclipse.platform.p2.url},${orbit-site},${ecfview-p2},${xtext-p2}</associate.p2>
 			</properties>
 			<build>
 				<plugins>
@@ -87,5 +88,5 @@
 		</profile>
 	</profiles>
 
-	
+
 </project>
