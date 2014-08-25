@@ -16,60 +16,16 @@
 
 	<parent>
 		<groupId>org.lunifera.idesdk</groupId>
-		<artifactId>lunifera-idesdk</artifactId>
+		<artifactId>org.lunifera.idesdk</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 
-	<artifactId>org.lunifera.idesdk.feature.xxx</artifactId>
+	<artifactId>org.lunifera.idesdk.feature.allinone</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>eclipse-feature</packaging>
 
 	<dependencies>
 		
-		<dependency>
-			<groupId>org.apache.camel</groupId>
-			<artifactId>camel-core</artifactId>
-			<version>${camel.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.camel</groupId>
-			<artifactId>camel-core</artifactId>
-			<version>${camel.version}</version>
-			<classifier>sources</classifier>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.camel</groupId>
-			<artifactId>camel-core-osgi</artifactId>
-			<version>${camel.version}</version>
-		</dependency>
-<!-- 		<dependency> -->
-<!-- 			<groupId>org.apache.camel</groupId> -->
-<!-- 			<artifactId>camel-crypto</artifactId> -->
-<!-- 			<version>${camel.version}</version> -->
-<!-- 		</dependency> -->
-		<dependency>
-			<groupId>org.apache.camel</groupId>
-			<artifactId>camel-context</artifactId>
-			<version>${camel.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.camel</groupId>
-			<artifactId>camel-core-osgi</artifactId>
-			<version>${camel.version}</version>
-			<classifier>sources</classifier>
-		</dependency>
-<!-- 		<dependency> -->
-<!-- 			<groupId>org.apache.camel</groupId> -->
-<!-- 			<artifactId>camel-crypto</artifactId> -->
-<!-- 			<version>${camel.version}</version> -->
-<!-- 			<classifier>sources</classifier> -->
-<!-- 		</dependency> -->
-		<dependency>
-			<groupId>org.apache.camel</groupId>
-			<artifactId>camel-context</artifactId>
-			<version>${camel.version}</version>
-			<classifier>sources</classifier>
-		</dependency>
 	</dependencies>
 
 	<build>

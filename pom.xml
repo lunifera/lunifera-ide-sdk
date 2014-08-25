@@ -14,7 +14,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>org.lunifera.idesdk</groupId>
-	<artifactId>lunifera.idesdk</artifactId>
+	<artifactId>org.lunifera.idesdk</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
@@ -40,7 +40,7 @@
 	</properties>
 
 	<modules>
-		<module>org.lunifera.idesdk.feature.xxx</module>
+		<module>org.lunifera.idesdk.feature.allinone</module>
 		<module>org.lunifera.idesdk.p2</module>
 	</modules>
 
@@ -94,4 +94,9 @@
 			</plugins>
 		</pluginManagement>
 	</build>
+	<parent>
+		<groupId>org.lunifera.releng.maven</groupId>
+		<artifactId>lunifera-releng-maven-parent-tycho</artifactId>
+		<version>0.10.1-SNAPSHOT</version>
+	</parent>
 </project>

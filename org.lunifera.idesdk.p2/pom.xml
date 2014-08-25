@@ -13,7 +13,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>org.lunifera.idesdk</groupId>
-		<artifactId>lunifera.idesdk</artifactId>
+		<artifactId>org.lunifera.idesdk</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 
