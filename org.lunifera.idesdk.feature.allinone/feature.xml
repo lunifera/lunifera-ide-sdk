@@ -55,6 +55,10 @@
       <import feature="org.lunifera.mobile.vaadin.feature.ecview.source" version="0.7.3" match="greaterOrEqual"/>
       <import feature="org.lunifera.mobile.vaadin.feature.touchkit" version="0.7.3" match="greaterOrEqual"/>
       <import feature="org.lunifera.mobile.vaadin.feature.touchkit.source" version="0.7.3" match="greaterOrEqual"/>
+      <import feature="org.eclipse.m2e.feature" version="1.5.0" match="greaterOrEqual"/>
+      <import feature="org.eclipse.m2e.logback.feature" version="1.5.0" match="greaterOrEqual"/>
+      <import feature="org.lunifera.ecview.feature.ide" version="0.7.3" match="greaterOrEqual"/>
+      <import feature="org.lunifera.ecview.feature.runtime" version="0.7.3" match="greaterOrEqual"/>
    </requires>
 
 </feature>
