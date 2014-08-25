@@ -18,6 +18,12 @@
 	<version>0.7.3-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
+	<parent>
+		<groupId>org.lunifera.releng.maven</groupId>
+		<artifactId>lunifera-releng-maven-parent-tycho</artifactId>
+		<version>0.10.1-SNAPSHOT</version>
+	</parent>
+	
 	<url>${lunifera.site.repository.url}</url>
 	<scm>
 		<url>${lunifera.scm.url}</url>
@@ -94,9 +100,4 @@
 			</plugins>
 		</pluginManagement>
 	</build>
-	<parent>
-		<groupId>org.lunifera.releng.maven</groupId>
-		<artifactId>lunifera-releng-maven-parent-tycho</artifactId>
-		<version>0.10.1-SNAPSHOT</version>
-	</parent>
 </project>
