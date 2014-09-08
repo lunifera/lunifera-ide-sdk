@@ -18,6 +18,10 @@
       %license
    </license>
 
+   <url>
+      <update label="Lunifera Luna Lastest" url="http://lun.lunifera.org/downloads/p2/lunifera/luna/latest/"/>
+   </url>
+
    <requires>
       <import feature="org.eclipse.xtext.sdk" version="2.6.2" match="greaterOrEqual"/>
       <import feature="org.lunifera.dsl.feature.common" version="0.7.3" match="greaterOrEqual"/>
