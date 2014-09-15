@@ -47,6 +47,7 @@
 
 	<modules>
 		<module>org.lunifera.idesdk.feature.allinone</module>
+		<module>org.lunifera.idesdk.feature.jbpm</module>
 		<module>org.lunifera.idesdk.p2</module>
 		<module>org.lunifera.idesdk.branding</module>
 	</modules>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.lunifera.idesdk.feature.jbpm"
+      label="%featureName"
+      version="0.7.3.qualifier"
+      provider-name="%providerName">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <requires>
+      <import feature="org.drools.eclipse" version="6.0.0" match="greaterOrEqual"/>
+      <import feature="org.guvnor.tools" version="6.0.0" match="greaterOrEqual"/>
+      <import feature="org.jbpm.eclipse" version="6.0.0" match="greaterOrEqual"/>
+      <import feature="org.jboss.tools.runtime.drools.detector" version="6.0.0" match="greaterOrEqual"/>
+      <import feature="org.eclipse.bpmn2.modeler" version="1.0.2" match="greaterOrEqual"/>
+	  <import feature="org.eclipse.bpmn2.modeler.example" version="1.0.2" match="greaterOrEqual"/>
+      <import feature="org.eclipse.bpmn2.modeler.jboss.runtime" version="1.0.2" match="greaterOrEqual"/>
+      <import feature="org.eclipse.bpmn2.modeler.wsil" version="1.0.2" match="greaterOrEqual"/>      
+   </requires>
+
+</feature>
