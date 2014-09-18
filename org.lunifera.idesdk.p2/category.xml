@@ -3,5 +3,8 @@
    <feature url="features/org.lunifera.idesdk.feature.allinone_0.7.3.qualifier.jar" id="org.lunifera.idesdk.feature.allinone" version="0.7.3.qualifier">
       <category name="lunifera_ide_sdk"/>
    </feature>
-   <category-def name="lunifera_ide_sdk" label="Lunifera IDE SDKs"/>
+   <feature url="features/org.lunifera.idesdk.feature.jbpm_0.7.3.qualifier.jar" id="org.lunifera.idesdk.feature.jbpm" version="0.7.3.qualifier">
+      <category name="lunifera_ide_sdk"/>
+   </feature>
+   <category-def name="lunifera_ide_sdk" label="Lunifera IDE SDK"/>
 </site>

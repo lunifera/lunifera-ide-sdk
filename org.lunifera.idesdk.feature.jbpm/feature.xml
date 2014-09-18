@@ -18,14 +18,12 @@
    </license>
 
    <requires>
-      <import feature="org.drools.eclipse" version="6.0.0" match="greaterOrEqual"/>
-      <import feature="org.guvnor.tools" version="6.0.0" match="greaterOrEqual"/>
-      <import feature="org.jbpm.eclipse" version="6.0.0" match="greaterOrEqual"/>
-      <import feature="org.jboss.tools.runtime.drools.detector" version="6.0.0" match="greaterOrEqual"/>
-      <import feature="org.eclipse.bpmn2.modeler" version="1.0.2" match="greaterOrEqual"/>
-	  <import feature="org.eclipse.bpmn2.modeler.example" version="1.0.2" match="greaterOrEqual"/>
-      <import feature="org.eclipse.bpmn2.modeler.jboss.runtime" version="1.0.2" match="greaterOrEqual"/>
-      <import feature="org.eclipse.bpmn2.modeler.wsil" version="1.0.2" match="greaterOrEqual"/>      
+      <import feature="org.drools.eclipse.feature" version="6.0.0" match="greaterOrEqual"/>
+      <import feature="org.guvnor.tools.feature" version="6.0.0" match="greaterOrEqual"/>
+      <import feature="org.jbpm.eclipse.feature" version="6.0.0" match="greaterOrEqual"/>
+      <import feature="org.jboss.tools.runtime.drools.detector.feature" version="6.0.0" match="greaterOrEqual"/>
+      <import feature="org.jboss.tools.runtime.core.feature" version="0.0.0" match="greaterOrEqual"/>
+      <import feature="org.eclipse.bpmn2.modeler.sdk" version="1.1.0" match="greaterOrEqual"/>      
    </requires>
 
 </feature>
