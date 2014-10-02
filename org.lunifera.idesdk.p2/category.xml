@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-   <feature url="features/org.lunifera.idesdk.feature.allinone_0.7.3.qualifier.jar" id="org.lunifera.idesdk.feature.allinone" version="0.7.3.qualifier">
+   <feature url="features/org.lunifera.idesdk.feature.allinone_0.7.4.jar" id="org.lunifera.idesdk.feature.allinone" version="0.7.4">
       <category name="lunifera_ide_sdk"/>
    </feature>
-   <feature url="features/org.lunifera.idesdk.feature.jbpm_0.7.3.qualifier.jar" id="org.lunifera.idesdk.feature.jbpm" version="0.7.3.qualifier">
+   <feature url="features/org.lunifera.idesdk.feature.jbpm_0.7.4.jar" id="org.lunifera.idesdk.feature.jbpm" version="0.7.4">
       <category name="lunifera_ide_sdk"/>
    </feature>
    <category-def name="lunifera_ide_sdk" label="Lunifera IDE SDK"/>

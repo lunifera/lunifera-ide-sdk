@@ -2,7 +2,7 @@
 <feature
       id="org.lunifera.idesdk.feature.allinone"
       label="%featureName"
-      version="0.7.3.qualifier"
+      version="0.7.4"
       provider-name="%providerName"
       plugin="org.lunifera.idesdk.branding">
 
