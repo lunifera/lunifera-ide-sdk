@@ -40,10 +40,10 @@
       <import feature="org.lunifera.dsl.feature.entities.headless" version="0.7.3" match="greaterOrEqual"/>
       <import feature="org.lunifera.dsl.feature.entities.headless.source" version="0.7.3" match="greaterOrEqual"/>
       <import feature="org.lunifera.dsl.feature.entities.source" version="0.7.3" match="greaterOrEqual"/>
-      <import feature="org.lunifera.dependencies.feature.vaadin" version="0.7.3" match="greaterOrEqual"/>
+      <import feature="org.lunifera.dependencies.feature.vaadin" version="7.2.5" match="perfect"/>
       <import feature="org.lunifera.dependencies.feature.atmosphere" version="0.7.3" match="greaterOrEqual"/>
       <import feature="org.lunifera.dependencies.feature.jetty.websockets" version="0.7.3" match="greaterOrEqual"/>
-      <import feature="org.lunifera.dependencies.feature.vaadin" version="0.7.3" match="greaterOrEqual"/>
+      <import feature="org.lunifera.dependencies.feature.vaadin.v73" version="7.3.1" match="perfect"/>
       <import feature="org.lunifera.xtext.builder.feature.ui.access" version="0.8.3" match="greaterOrEqual"/>
       <import feature="org.lunifera.xtext.builder.feature.ui.access.source" version="0.8.3" match="greaterOrEqual"/>
       <import feature="org.lunifera.xtext.builder.feature.types" version="0.8.3" match="greaterOrEqual"/>
