@@ -71,7 +71,6 @@
       <import feature="org.eclipse.sirius.runtime" version="1.0.1" match="greaterOrEqual"/>
       <import feature="org.eclipse.sirius.runtime.source" version="1.0.1" match="greaterOrEqual"/>
       <import feature="org.eclipse.sirius.runtime.ide.ui" version="1.0.1" match="greaterOrEqual"/>
-      <import feature="org.eclipse.sirius.runtime.ide.ui.source" version="1.0.1" match="greaterOrEqual"/>
    </requires>
 
    <plugin
