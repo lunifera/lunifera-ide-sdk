@@ -1,19 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?artifactRepository version='1.1.0'?>
 <artifacts size='2'>
-  <artifact classifier='osgi.bundle' id='org.lunifera.idesdk.branding' version='0.7.5.201410151105'>
+  <artifact classifier='osgi.bundle' id='org.lunifera.idesdk.branding' version='0.7.5.201410170830'>
     <properties size='5'>
-      <property name='artifact.size' value='8296'/>
-      <property name='download.size' value='8296'/>
+      <property name='artifact.size' value='8297'/>
+      <property name='download.size' value='8297'/>
       <property name='maven-groupId' value='org.lunifera.idesdk'/>
       <property name='maven-artifactId' value='org.lunifera.idesdk.branding'/>
       <property name='maven-version' value='0.7.5-SNAPSHOT'/>
     </properties>
   </artifact>
-  <artifact classifier='osgi.bundle' id='org.lunifera.idesdk.branding.source' version='0.7.5.201410151105'>
+  <artifact classifier='osgi.bundle' id='org.lunifera.idesdk.branding.source' version='0.7.5.201410170830'>
     <properties size='6'>
-      <property name='artifact.size' value='1628'/>
-      <property name='download.size' value='1628'/>
+      <property name='artifact.size' value='1626'/>
+      <property name='download.size' value='1626'/>
       <property name='maven-groupId' value='org.lunifera.idesdk'/>
       <property name='maven-artifactId' value='org.lunifera.idesdk.branding'/>
       <property name='maven-version' value='0.7.5-SNAPSHOT'/>
