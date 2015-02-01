@@ -23,7 +23,7 @@
 		<artifactId>lunifera-releng-maven-parent-tycho</artifactId>
 		<version>0.10.1-SNAPSHOT</version>
 	</parent>
-	
+
 	<url>${lunifera.site.repository.url}</url>
 	<scm>
 		<url>${lunifera.scm.url}</url>
@@ -51,6 +51,14 @@
 		<module>org.lunifera.idesdk.p2</module>
 		<module>org.lunifera.idesdk.branding</module>
 	</modules>
+
+	<repositories>
+		<repository>
+			<id>e4tools</id>
+			<url>http://download.eclipse.org/e4/downloads/drops/S-0.17-201501051100/repository</url>
+			<layout>p2</layout>
+		</repository>
+	</repositories>
 
 	<profiles>
 		<profile>
