@@ -70,7 +70,7 @@
       <import feature="org.lunifera.idesdk.feature.jbpm" version="0.7.5.qualifier"/>
       <import feature="org.eclipse.sirius.runtime" version="1.0.1" match="greaterOrEqual"/>
       <import feature="org.eclipse.sirius.runtime.ide.ui" version="1.0.1" match="greaterOrEqual"/>
-      <import feature="org.semanticsoft.vaaclipse.tools" version="2.7.3" match="greaterOrEqual"/>
+      <import feature="org.semanticsoft.vaaclipse.tools.feature.ide" version="2.7.3" match="greaterOrEqual"/>
    </requires>
 
    <plugin
