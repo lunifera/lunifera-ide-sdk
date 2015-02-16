@@ -69,6 +69,9 @@
       <import feature="org.lunifera.ecview.feature.runtime" version="0.7.5" match="greaterOrEqual"/>
       <import feature="org.lunifera.ide.feature.headless" version="0.7.5" match="greaterOrEqual"/>
       <import feature="org.lunifera.ide.feature.ui" version="0.7.5" match="greaterOrEqual"/>
+      <import feature="org.lunifera.tools.graphical.entity.feature.ui" version="0.7.5" match="greaterOrEqual"/>
+      <import feature="org.eclipse.sirius.runtime" version="1.0.1" match="greaterOrEqual"/>
+      <import feature="org.eclipse.sirius.runtime.ide.ui" version="1.0.1" match="greaterOrEqual"/>
       <import feature="org.semanticsoft.vaaclipse.tools.feature.ide" version="2.7.3" match="greaterOrEqual"/>
    </requires>
 
