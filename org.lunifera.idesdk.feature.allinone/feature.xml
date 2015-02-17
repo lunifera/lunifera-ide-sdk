@@ -53,6 +53,8 @@
       <import feature="org.lunifera.runtime.feature.common.source" version="0.7.5" match="greaterOrEqual"/>
       <import feature="org.lunifera.runtime.feature.e4eventmanager" version="0.7.5" match="greaterOrEqual"/>
       <import feature="org.lunifera.runtime.feature.e4eventmanager.source" version="0.7.5" match="greaterOrEqual"/>
+      <import feature="org.lunifera.runtime.feature.resolverhooks" version="0.7.5" match="greaterOrEqual"/>
+      <import feature="org.lunifera.runtime.feature.resolverhooks.source" version="0.7.5" match="greaterOrEqual"/>
       <import feature="org.lunifera.runtime.web.feature.ecview.presentation.vaadin" version="0.7.5" match="greaterOrEqual"/>
       <import feature="org.lunifera.runtime.web.feature.ecview.presentation.vaadin.source" version="0.7.5" match="greaterOrEqual"/>
       <import feature="org.lunifera.runtime.web.feature.vaadin.common" version="0.7.5" match="greaterOrEqual"/>
