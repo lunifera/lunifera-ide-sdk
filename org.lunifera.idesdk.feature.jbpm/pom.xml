@@ -17,7 +17,7 @@
 	<parent>
 		<groupId>org.lunifera.idesdk</groupId>
 		<artifactId>org.lunifera.idesdk</artifactId>
-		<version>0.7.5-SNAPSHOT</version>
+		<version>0.9.1-SNAPSHOT</version>
 	</parent>
 
 	<artifactId>org.lunifera.idesdk.feature.jbpm</artifactId>

@@ -15,13 +15,13 @@
 
 	<groupId>org.lunifera.idesdk</groupId>
 	<artifactId>org.lunifera.idesdk</artifactId>
-	<version>0.7.5-SNAPSHOT</version>
+	<version>0.9.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<parent>
 		<groupId>org.lunifera.releng.maven</groupId>
 		<artifactId>lunifera-releng-maven-parent-tycho</artifactId>
-		<version>0.10.1-SNAPSHOT</version>
+		<version>0.12.5-SNAPSHOT</version>
 	</parent>
 
 	<url>${lunifera.site.repository.url}</url>
@@ -48,6 +48,8 @@
 	<modules>
 		<module>org.lunifera.idesdk.feature.allinone</module>
 		<module>org.lunifera.idesdk.feature.jbpm</module>
+		<module>org.lunifera.idesdk.feature.runtime.allinone</module>
+		<module>org.lunifera.idesdk.feature.runtime.allinone.testframework</module>
 		<module>org.lunifera.idesdk.p2</module>
 		<module>org.lunifera.idesdk.branding</module>
 	</modules>
