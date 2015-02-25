@@ -15,15 +15,15 @@
 
 	<groupId>org.lunifera.idesdk</groupId>
 	<artifactId>org.lunifera.idesdk</artifactId>
-	<version>0.7.4</version>
+	<version>0.9.0</version>
 	<packaging>pom</packaging>
 
 	<parent>
 		<groupId>org.lunifera.releng.maven</groupId>
 		<artifactId>lunifera-releng-maven-parent-tycho</artifactId>
-		<version>0.10.1-SNAPSHOT</version>
+		<version>0.12.5-SNAPSHOT</version>
 	</parent>
-	
+
 	<url>${lunifera.site.repository.url}</url>
 	<scm>
 		<url>${lunifera.scm.url}</url>
@@ -48,9 +48,19 @@
 	<modules>
 		<module>org.lunifera.idesdk.feature.allinone</module>
 		<module>org.lunifera.idesdk.feature.jbpm</module>
+		<module>org.lunifera.idesdk.feature.runtime.allinone</module>
+		<module>org.lunifera.idesdk.feature.runtime.allinone.testframework</module>
 		<module>org.lunifera.idesdk.p2</module>
 		<module>org.lunifera.idesdk.branding</module>
 	</modules>
+
+	<repositories>
+		<repository>
+			<id>e4tools</id>
+			<url>http://download.eclipse.org/e4/downloads/drops/S-0.17-201501051100/repository</url>
+			<layout>p2</layout>
+		</repository>
+	</repositories>
 
 	<profiles>
 		<profile>
@@ -101,5 +111,35 @@
 				</plugin>
 			</plugins>
 		</pluginManagement>
+		<plugins>
+			<plugin>
+				<artifactId>maven-clean-plugin</artifactId>
+				<configuration>
+					<filesets>
+						<fileset>
+							<directory>xtend-gen</directory>
+							<includes>
+								<include>**</include>
+							</includes>
+						</fileset>
+					</filesets>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.eclipse.xtend</groupId>
+				<artifactId>xtend-maven-plugin</artifactId>
+				<executions>
+					<execution>
+						<goals>
+							<goal>compile</goal>
+							<goal>testCompile</goal>
+						</goals>
+						<configuration>
+							<outputDirectory>xtend-gen</outputDirectory>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
 	</build>
 </project>
