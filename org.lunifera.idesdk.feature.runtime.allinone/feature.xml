@@ -197,6 +197,12 @@
          version="0.0.0"
          unpack="false"/>
 
+   <plugin id="org.apache.derby.source"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
    <plugin id="org.apache.felix.gogo.command"
          download-size="0"
          install-size="0"
@@ -473,7 +479,13 @@
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.eclipse.gemini.dbaccess.derby"
+   <feature id="org.eclipse.gemini.dbaccess"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+  <feature id="org.eclipse.gemini.dbaccess.mysql"
          download-size="0"
          install-size="0"
          version="0.0.0"
@@ -485,7 +497,13 @@
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.eclipse.gemini.jpa"
+   <feature id="org.eclipse.gemini.jpa"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+         
+   <feature id="org.eclipse.gemini.naming"
          download-size="0"
          install-size="0"
          version="0.0.0"
