@@ -50,7 +50,7 @@
 				<ecliptical-p2>http://download.eclipticalsoftware.com/updates</ecliptical-p2>
 				<ecliptical-backup-p2>http://lun.lunifera.org/downloads/p2/mirrors/ecliptical/</ecliptical-backup-p2>
 				<gemini-dbaccess-p2>http://download.eclipse.org/gemini/updates/dbaccess/1.1.0</gemini-dbaccess-p2>
-				<gemini-jpa-p2>http://download.eclipse.org/gemini/updates/jpa/1.1.0</gemini-jpa-p2>
+				<gemini-jpa-p2>http://download.eclipse.org/gemini/jpa/updates</gemini-jpa-p2>
 				<gemini-naming-p2>http://download.eclipse.org/gemini/updates/naming/1.0.5/</gemini-naming-p2>
 				<associate.p2>
 					${lunifera.build.eclipse.platform.p2.url},${orbit-site},${xtext-p2},${bpmnmodeler-p2},${drools-p2},
