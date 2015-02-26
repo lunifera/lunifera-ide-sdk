@@ -75,17 +75,11 @@
       <import feature="org.eclipse.sirius.runtime" version="1.0.1" match="equivalent"/>
       <import feature="org.eclipse.sirius.runtime.ide.ui" version="1.0.1" match="equivalent"/>
       <import feature="org.semanticsoft.vaaclipse.tools.feature.ide" version="2.7.3" match="equivalent"/>
+      <import plugin="org.eclipse.e4.tools"/>
    </requires>
 
    <plugin
          id="org.lunifera.idesdk.branding"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.eclipse.e4.tools"
          download-size="0"
          install-size="0"
          version="0.0.0"
