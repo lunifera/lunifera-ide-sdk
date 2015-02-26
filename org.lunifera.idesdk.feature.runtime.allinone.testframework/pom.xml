@@ -22,26 +22,26 @@
 	<packaging>eclipse-feature</packaging>
 	<build>
 		<plugins>
-			<plugin>
-				<groupId>org.eclipse.tycho.extras</groupId>
-				<artifactId>tycho-source-feature-plugin</artifactId>
-				<version>${tychoExtrasVersion}</version>
-				<executions>
-					<execution>
-						<id>source-feature</id>
-						<phase>package</phase>
-						<goals>
-							<goal>source-feature</goal>
-						</goals>
-					</execution>
-				</executions>
-				<configuration>
-					<labelSuffix> (source)</labelSuffix>
-					<excludes>
-						<feature id="org.lunifera.dependencies.feature.assert-utilities" />
-					</excludes>
-				</configuration>
-			</plugin>
+<!-- 			<plugin> -->
+<!-- 				<groupId>org.eclipse.tycho.extras</groupId> -->
+<!-- 				<artifactId>tycho-source-feature-plugin</artifactId> -->
+<!-- 				<version>${tychoExtrasVersion}</version> -->
+<!-- 				<executions> -->
+<!-- 					<execution> -->
+<!-- 						<id>source-feature</id> -->
+<!-- 						<phase>package</phase> -->
+<!-- 						<goals> -->
+<!-- 							<goal>source-feature</goal> -->
+<!-- 						</goals> -->
+<!-- 					</execution> -->
+<!-- 				</executions> -->
+<!-- 				<configuration> -->
+<!-- 					<labelSuffix> (source)</labelSuffix> -->
+<!-- 					<excludes> -->
+<!-- 						<feature id="org.lunifera.dependencies.feature.assert-utilities" /> -->
+<!-- 					</excludes> -->
+<!-- 				</configuration> -->
+<!-- 			</plugin> -->
 			<plugin>
 				<!-- workaround while bug https://bugs.eclipse.org/bugs/show_bug.cgi?id=398250 
 					is not fixed -->
