@@ -23,7 +23,7 @@
 
    <includes
          id="org.lunifera.dependencies.feature.assert-utilities"
-         version="1.2.2.2"/>
+         version="0.9.1.qualifier"/>
   
    <plugin
          id="org.junit"

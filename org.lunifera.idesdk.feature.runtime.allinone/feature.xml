@@ -923,12 +923,6 @@
          version="0.0.0"
          unpack="false"/>
 
-   <plugin id="org.lunifera.runtime.web.common"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
    <plugin id="org.lunifera.runtime.web.ecview.presentation.vaadin"
          download-size="0"
          install-size="0"
