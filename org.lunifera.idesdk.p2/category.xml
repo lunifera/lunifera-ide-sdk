@@ -3,13 +3,25 @@
    <feature id="org.lunifera.idesdk.feature.allinone">
       <category name="lunifera_ide_sdk"/>
    </feature>
+   <feature id="org.lunifera.idesdk.feature.allinone.source">
+      <category name="lunifera_ide_sdk"/>
+   </feature>
    <feature id="org.lunifera.idesdk.feature.jbpm">
+      <category name="lunifera_ide_sdk"/>
+   </feature>
+   <feature id="org.lunifera.idesdk.feature.jbpm.source">
       <category name="lunifera_ide_sdk"/>
    </feature>
    <feature id="org.lunifera.idesdk.feature.runtime.allinone">
       <category name="lunifera_ide_sdk"/>
    </feature>
+   <feature id="org.lunifera.idesdk.feature.runtime.allinone.source">
+      <category name="lunifera_ide_sdk"/>
+   </feature>
    <feature id="org.lunifera.idesdk.feature.runtime.allinone.testframework">
+      <category name="lunifera_ide_sdk"/>
+   </feature>
+   <feature id="org.lunifera.idesdk.feature.runtime.allinone.testframework.source">
       <category name="lunifera_ide_sdk"/>
    </feature>
    <category-def name="lunifera_ide_sdk" label="Lunifera IDE SDK"/>
