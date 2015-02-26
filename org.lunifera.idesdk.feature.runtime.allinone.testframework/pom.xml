@@ -66,11 +66,11 @@
 			<artifactId>junit</artifactId>
 			<version>4.11</version>
 		</dependency>
-		<dependency>
-			<groupId>org.lunifera.runtime</groupId>
-			<artifactId>org.lunifera.runtime.feature.allinone</artifactId>
-			<version>0.9.1-SNAPSHOT</version>
-		</dependency>
+<!-- 		<dependency> -->
+<!-- 			<groupId>org.lunifera.runtime</groupId> -->
+<!-- 			<artifactId>org.lunifera.runtime.feature.allinone</artifactId> -->
+<!-- 			<version>0.9.1-SNAPSHOT</version> -->
+<!-- 		</dependency> -->
 		<dependency>
 			<groupId>org.lunifera.dependencies</groupId>
 			<artifactId>org.lunifera.dependencies.feature.assert-utilities</artifactId>
