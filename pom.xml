@@ -42,7 +42,7 @@
 	<properties>
 		<license.copyrightOwners>Lunifera GmbH, Loetz KG</license.copyrightOwners>
 		<lunifera.gitrepo.name>lunifera-ide-sdk</lunifera.gitrepo.name>
-		<lunifera.releng.version>0.10.1</lunifera.releng.version>
+		<lunifera.releng.version>0.12.5</lunifera.releng.version>
 	</properties>
 
 	<modules>
