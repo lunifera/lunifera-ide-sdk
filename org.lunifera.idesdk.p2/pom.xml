@@ -12,9 +12,10 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>org.lunifera.releng.maven</groupId>
-		<artifactId>lunifera-releng-maven-parent-tycho</artifactId>
-		<version>0.12.5-SNAPSHOT</version>
+		<artifactId>org.lunifera.idesdk</artifactId>
+		<version>0.9.1-SNAPSHOT</version>
+		<groupId>org.lunifera.idesdk</groupId>
+		<relativePath>..</relativePath>
 	</parent>
 
 	<artifactId>org.lunifera.idesdk.p2</artifactId>
@@ -111,6 +112,4 @@
 	</profiles>
 
 
-	<groupId>org.lunifera.idesdk</groupId>
-	<version>0.9.1-SNAPSHOT</version>
 </project>
