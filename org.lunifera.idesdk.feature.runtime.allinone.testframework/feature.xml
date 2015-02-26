@@ -19,7 +19,7 @@
 
    <includes
          id="org.lunifera.idesdk.feature.runtime.allinone"
-         version="0.9.1.qualifier"/>
+         version="0.9.1"/>
 
    <includes
          id="org.lunifera.dependencies.feature.assert-utilities"
