@@ -1,222 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
-id="org.lunifera.idesdk.feature.runtime.allinone"
-label="%featureName"
-version="0.9.1.qualifier"
-provider-name="%providerName">
+      id="org.lunifera.idesdk.feature.runtime.allinone"
+      label="%featureName"
+      version="0.9.1"
+      provider-name="%providerName">
 
-<description>
-%description
-</description>
+   <description>
+      %description
+   </description>
 
-<copyright>
-%copyright
-</copyright>
+   <copyright>
+      %copyright
+   </copyright>
 
-<license url="%licenseURL">
-%license
-</license>
+   <license url="%licenseURL">
+      %license
+   </license>
 
-<requires>
-   <import plugin="ch.qos.logback.classic"/>
-   <import plugin="ch.qos.logback.core"/>
-   <import plugin="ch.qos.logback.slf4j"/>
-   <import plugin="com.google.guava"/>
-   <import plugin="com.google.gwt.thirdparty.guava"/>
-   <import plugin="com.google.gwt.thirdparty.streamhtmlparser"/>
-   <import plugin="com.google.inject"/>         
-   <import plugin="com.google.inject.multibindings"/>
-   <import plugin="com.ibm.icu"/>
-   <import plugin="com.vaadin.client"/>
-   <import plugin="com.vaadin.client-compiled"/>
-   <import plugin="com.vaadin.external.atmosphere.runtime"/>
-   <import plugin="com.vaadin.external.org.slf4j"/>
-   <import plugin="com.vaadin.push"/>
-   <import plugin="com.vaadin.server"/>
-   <import plugin="com.vaadin.shared"/>
-   <import plugin="com.vaadin.themes"/>
-   <import plugin="javax.annotation"/>
-   <import plugin="javax.inject"/>
-   <import plugin="javax.persistence"/>
-   <import plugin="javax.servlet"/>
-   <import plugin="javax.xml"/>
-   <import plugin="org.antlr.runtime"/>
-   <import plugin="org.apache.batik.css"/>
-   <import plugin="org.apache.batik.util"/>
-   <import plugin="org.apache.batik.util.gui"/>
-   <import plugin="org.apache.commons.beanutils"/>
-   <import plugin="org.apache.commons.collections"/>
-   <import plugin="org.apache.commons.lang"/>
-   <import plugin="org.apache.commons.logging"/>
-   <import plugin="org.apache.derby"/>
-   <import plugin="org.apache.felix.gogo.command"/>
-   <import plugin="org.apache.felix.gogo.runtime"/>
-   <import plugin="org.apache.felix.gogo.shell"/>
-   <import plugin="org.apache.log4j"/>
-   <import plugin="org.apache.xerces"/>
-   <import plugin="org.apache.xml.resolver"/>
-   <import plugin="org.apache.xml.serializer"/>
-   <import plugin="org.eclipse.core.commands"/>
-   <import plugin="org.eclipse.core.contenttype"/>
-   <import plugin="org.eclipse.core.databinding"/>
-   <import plugin="org.eclipse.core.databinding.beans"/>
-   <import plugin="org.eclipse.core.databinding.observable"/>
-   <import plugin="org.eclipse.core.databinding.property"/>
-   <import plugin="org.eclipse.core.expressions"/>
-   <import plugin="org.eclipse.core.filesystem"/>
-   <import plugin="org.eclipse.core.jobs"/>
-   <import plugin="org.eclipse.core.resources"/>
-   <import plugin="org.eclipse.core.runtime"/>
-   <import plugin="org.eclipse.e4.core.commands"/>
-   <import plugin="org.eclipse.e4.core.contexts"/>
-   <import plugin="org.eclipse.e4.core.di"/>
-   <import plugin="org.eclipse.e4.core.di.extensions"/>
-   <import plugin="org.eclipse.e4.core.services"/>
-   <import plugin="org.eclipse.e4.ui.css.core"/>
-   <import plugin="org.eclipse.e4.ui.di"/>
-   <import plugin="org.eclipse.e4.ui.model.workbench"/>
-   <import plugin="org.eclipse.e4.ui.services"/>
-   <import plugin="org.eclipse.e4.ui.workbench"/>
-   <import plugin="org.eclipse.emf.common"/>
-   <import plugin="org.eclipse.emf.databinding"/>
-   <import plugin="org.eclipse.emf.ecore"/>
-   <import plugin="org.eclipse.emf.ecore.change"/>
-   <import plugin="org.eclipse.emf.ecore.edit"/>
-   <import plugin="org.eclipse.emf.ecore.xcore.lib"/>
-   <import plugin="org.eclipse.emf.ecore.xmi"/>
-   <import plugin="org.eclipse.emf.edit"/>
-   <import plugin="org.eclipse.equinox.app"/>
-   <import plugin="org.eclipse.equinox.common"/>
-   <import plugin="org.eclipse.equinox.console"/>
-   <import plugin="org.eclipse.equinox.coordinator"/>         
-   <import plugin="org.eclipse.equinox.ds"/>
-   <import plugin="org.eclipse.equinox.event"/>
-   <import plugin="org.eclipse.equinox.http.registry"/>
-   <import plugin="org.eclipse.equinox.http.servlet"/>
-   <import plugin="org.eclipse.equinox.preferences"/>
-   <import plugin="org.eclipse.equinox.region"/>
-   <import plugin="org.eclipse.equinox.registry"/>
-   <import plugin="org.eclipse.equinox.util"/>
-   <import plugin="org.eclipse.gemini.dbaccess.derby"/>
-   <import plugin="org.eclipse.gemini.dbaccess.util"/>
-   <import plugin="org.eclipse.gemini.jpa"/>
-   <import plugin="org.eclipse.gemini.naming"/>
-   <import plugin="org.eclipse.jetty.continuation"/>
-   <import plugin="org.eclipse.jetty.http"/>
-   <import plugin="org.eclipse.jetty.io"/>
-   <import plugin="org.eclipse.jetty.security"/>
-   <import plugin="org.eclipse.jetty.server"/>
-   <import plugin="org.eclipse.jetty.servlet"/>
-   <import plugin="org.eclipse.jetty.util"/>
-   <import plugin="org.eclipse.jetty.websocket"/>
-   <import plugin="org.eclipse.osgi"/>
-   <import plugin="org.eclipse.osgi.compatibility.state"/>
-   <import plugin="org.eclipse.osgi.services"/>
-   <import plugin="org.eclipse.osgi.util"/>
-   <import plugin="org.eclipse.persistence.antlr"/>
-   <import plugin="org.eclipse.persistence.asm"/>
-   <import plugin="org.eclipse.persistence.core"/>
-   <import plugin="org.eclipse.persistence.jpa"/>
-   <import plugin="org.eclipse.persistence.jpa.jpql"/>
-   <import plugin="org.eclipse.persistence.nosql"/>
-   <import plugin="org.eclipse.persistence.oracle"/>
-   <import plugin="org.eclipse.persistence.oracle.nosql"/>
-   <import plugin="org.eclipse.text"/>
-   <import plugin="org.eclipse.xsd"/>
-   <import plugin="org.eclipse.xtend.lib"/>
-   <import plugin="org.eclipse.xtend.lib.macro"/>
-   <import plugin="org.eclipse.xtext"/>
-   <import plugin="org.eclipse.xtext.common.types"/>
-   <import plugin="org.eclipse.xtext.logging"/>
-   <import plugin="org.eclipse.xtext.util"/>
-   <import plugin="org.eclipse.xtext.xbase"/>
-   <import plugin="org.eclipse.xtext.xbase"/>
-   <import plugin="org.eclipse.xtext.xbase.lib"/>
-   <import plugin="org.json" version="0.0.20080701"/>
-   <import plugin="org.jsoup"/>
-   <import plugin="org.lunifera.dsl.common.xtext"/>
-   <import plugin="org.lunifera.dsl.datatype.lib"/>
-   <import plugin="org.lunifera.dsl.datatype.xtext"/>
-   <import plugin="org.lunifera.dsl.dto.lib"/>
-   <import plugin="org.lunifera.dsl.dto.xtext"/>
-   <import plugin="org.lunifera.dsl.entity.xtext"/>
-   <import plugin="org.lunifera.dsl.semantic.common"/>
-   <import plugin="org.lunifera.dsl.semantic.dto"/>
-   <import plugin="org.lunifera.dsl.semantic.entity"/>
-   <import plugin="org.lunifera.dsl.semantic.service"/>
-   <import plugin="org.lunifera.dsl.services.xtext"/>
-   <import plugin="org.lunifera.dsl.xtext.lazyresolver"/>
-   <import plugin="org.lunifera.dsl.xtext.lazyresolver.api"/>
-   <import plugin="org.lunifera.ecview.core.common"/>
-   <import plugin="org.lunifera.ecview.core.common.editparts.emf"/>
-   <import plugin="org.lunifera.ecview.core.common.model"/>
-   <import plugin="org.lunifera.ecview.core.databinding.beans"/>
-   <import plugin="org.lunifera.ecview.core.databinding.emf"/>
-   <import plugin="org.lunifera.ecview.core.extension.editparts"/>
-   <import plugin="org.lunifera.ecview.core.extension.editparts.emf"/>
-   <import plugin="org.lunifera.ecview.core.extension.model"/>
-   <import plugin="org.lunifera.ecview.core.ui.presentation.common"/>
-   <import plugin="org.lunifera.ecview.core.util.emf"/>
-   <import plugin="org.lunifera.ecview.dsl"/>
-   <import plugin="org.lunifera.ecview.dsl.lib"/>
-   <import plugin="org.lunifera.ecview.jetty.manager"/>
-   <import plugin="org.lunifera.ecview.semantic.uimodel"/>
-   <import plugin="org.lunifera.ecview.semantic.uisemantics"/>
-   <import plugin="org.lunifera.ecview.uisemantics"/>
-   <import plugin="org.lunifera.ecview.vaadin.servlet.mobile"/>
-   <import plugin="org.lunifera.ecview.xtext.builder.participant"/>
-   <import plugin="org.lunifera.ecview.xtext.builder.participant.i18n"/>
-   <import plugin="org.lunifera.mobile.vaadin.ecview.editparts"/>
-   <import plugin="org.lunifera.mobile.vaadin.ecview.editparts.emf"/>
-   <import plugin="org.lunifera.mobile.vaadin.ecview.model"/>
-   <import plugin="org.lunifera.mobile.vaadin.ecview.presentation"/>
-   <import plugin="org.lunifera.mobile.vaadin.touchkit.osgi"/>
-   <import plugin="org.lunifera.mobile.vaadin.widgetset"/>
-   <import plugin="org.lunifera.runtime.common"/>
-   <import plugin="org.lunifera.runtime.event"/>
-   <import plugin="org.lunifera.runtime.web.common"/>
-   <import plugin="org.lunifera.runtime.web.ecview.presentation.vaadin"/>
-   <import plugin="org.lunifera.runtime.web.vaadin.common"/>
-   <import plugin="org.lunifera.runtime.web.vaadin.components"/>
-   <import plugin="org.lunifera.runtime.web.vaadin.databinding"/>
-   <import plugin="org.lunifera.vaaclipse.addons.application"/>
-   <import plugin="org.lunifera.vaaclipse.addons.common"/>
-   <import plugin="org.lunifera.vaaclipse.addons.common.api"/>
-   <import plugin="org.lunifera.vaaclipse.addons.ecview"/>
-   <import plugin="org.lunifera.vaaclipse.app"/>
-   <import plugin="org.lunifera.vaaclipse.ui.preferences.addon"/>
-   <import plugin="org.lunifera.vaaclipse.ui.preferences.model"/>
-   <import plugin="org.lunifera.xtext.builder.metadata.services"/>
-   <import plugin="org.lunifera.xtext.builder.types.bundles"/>
-   <import plugin="org.lunifera.xtext.builder.types.loader.api"/>
-   <import plugin="org.lunifera.xtext.builder.types.loader.runtime"/>
-   <import plugin="org.lunifera.xtext.builder.xbase.setups"/>
-   <import plugin="org.objectweb.asm"/>
-   <import plugin="org.semanticsoft.commons"/>
-   <import plugin="org.semanticsoft.e4extension"/>
-   <import plugin="org.semanticsoft.e4modelextension"/>
-   <import plugin="org.semanticsoft.vaaclipse.additions"/>
-   <import plugin="org.semanticsoft.vaaclipse.api"/>
-   <import plugin="org.semanticsoft.vaaclipse.behaviour"/>
-   <import plugin="org.semanticsoft.vaaclipse.contributions"/>
-   <import plugin="org.semanticsoft.vaaclipse.presentation"/>
-   <import plugin="org.semanticsoft.vaaclipse.publicapi"/>
-   <import plugin="org.semanticsoft.vaaclipse.resources"/>
-   <import plugin="org.semanticsoft.vaaclipse.theme"/>
-   <import plugin="org.semanticsoft.vaaclipse.util"/>
-   <import plugin="org.semanticsoft.vaaclipse.vaadin.addon.contextmenu"/>
-   <import plugin="org.semanticsoft.vaaclipse.vaadin.addon.dndlayout"/>
-   <import plugin="org.semanticsoft.vaaclipse.widgets"/>
-   <import plugin="org.semanticsoft.vaaclipse.widgetset.default"/>
-   <import plugin="org.semanticsoft.vaadin"/>
-   <import plugin="org.slf4j.api"/>
-   <import plugin="org.w3c.css.sac"/>
-   <import plugin="org.w3c.dom.events"/>
-   <import plugin="org.w3c.dom.smil"/>
-   <import plugin="org.w3c.dom.svg"/>
-   <import plugin="org.w3c.flute"/>
-   <import plugin="osgi.enterprise"/>
-   
-</requires>
+   <requires>
+      <import feature="org.lunifera.dependencies.feature.atmosphere" version="2.1.2.vaadin6" match="equivalent"/>
+      <import feature="org.lunifera.dependencies.feature.jetty.websockets" version="8.1.15" match="equivalent"/>
+      <import feature="org.lunifera.dependencies.feature.vaadin" version="7.3.8" match="equivalent"/>
+      <import feature="org.lunifera.dsl.feature.common.headless" version="0.9.1" match="equivalent"/>
+      <import feature="org.lunifera.dsl.feature.common.headless.source" version="0.9.1" match="equivalent"/>
+      <import feature="org.lunifera.dsl.feature.dto.headless" version="0.9.1" match="equivalent"/>
+      <import feature="org.lunifera.dsl.feature.dto.headless.source" version="0.9.1" match="equivalent"/>
+      <import feature="org.lunifera.dsl.feature.entities.headless" version="0.9.1" match="equivalent"/>
+      <import feature="org.lunifera.dsl.feature.entities.headless.source" version="0.9.1" match="equivalent"/>
+      <import feature="org.lunifera.ecview.core.feature.core" version="0.9.1" match="equivalent"/>
+      <import feature="org.lunifera.ecview.feature.jetty" version="0.9.1" match="equivalent"/>
+      <import feature="org.lunifera.ecview.feature.runtime" version="0.9.1" match="equivalent"/>
+      <import feature="org.lunifera.mobile.vaadin.feature.ecview" version="0.9.1" match="equivalent"/>
+      <import feature="org.lunifera.mobile.vaadin.feature.ecview.source" version="0.9.1" match="equivalent"/>
+      <import feature="org.lunifera.mobile.vaadin.feature.touchkit" version="0.9.1" match="equivalent"/>
+      <import feature="org.lunifera.mobile.vaadin.feature.touchkit.source" version="0.9.1" match="equivalent"/>
+      <import feature="org.lunifera.runtime.feature.common" version="0.9.1" match="equivalent"/>
+      <import feature="org.lunifera.runtime.feature.common.source" version="0.9.1" match="equivalent"/>
+      <import feature="org.lunifera.runtime.feature.e4eventmanager" version="0.9.1" match="equivalent"/>
+      <import feature="org.lunifera.runtime.feature.e4eventmanager.source" version="0.9.1" match="equivalent"/>
+      <import feature="org.lunifera.runtime.feature.resolverhooks" version="0.9.1" match="equivalent"/>
+      <import feature="org.lunifera.runtime.feature.resolverhooks.source" version="0.9.1" match="equivalent"/>
+      <import feature="org.lunifera.runtime.web.feature.ecview.presentation.vaadin" version="0.9.1" match="equivalent"/>
+      <import feature="org.lunifera.runtime.web.feature.ecview.presentation.vaadin.source" version="0.9.1" match="equivalent"/>
+      <import feature="org.lunifera.runtime.web.feature.vaadin.common" version="0.9.1" match="equivalent"/>
+      <import feature="org.lunifera.runtime.web.feature.vaadin.common.source" version="0.9.1" match="equivalent"/>
+      <import feature="org.lunifera.runtime.web.feature.vaadin.components" version="0.9.1" match="equivalent"/>
+      <import feature="org.lunifera.runtime.web.feature.vaadin.components.source" version="0.9.1" match="equivalent"/>
+      <import feature="org.lunifera.runtime.web.feature.vaadin.databinding" version="0.9.1" match="equivalent"/>
+      <import feature="org.lunifera.runtime.web.feature.vaadin.databinding.source" version="0.9.1" match="equivalent"/>
+      <import feature="org.lunifera.xtext.builder.feature.service.jvmtypes" version="0.9.1" match="equivalent"/>
+      <import feature="org.lunifera.xtext.builder.feature.service.xbase" version="0.9.1" match="equivalent"/>
+      <import feature="org.lunifera.xtext.builder.feature.types" version="0.9.1" match="equivalent"/>
+      <import feature="org.lunifera.xtext.builder.feature.types.source" version="0.9.1" match="equivalent"/>
+      <import feature="org.semanticsoft.vaaclipse.feature.runtime.core" version="2.7.3" match="equivalent"/>
+   </requires>
 
 </feature>
