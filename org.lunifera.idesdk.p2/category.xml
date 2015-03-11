@@ -9,6 +9,9 @@
    <feature id="org.lunifera.idesdk.feature.runtime.allinone">
       <category name="lunifera-runtime-components"/>
    </feature>
+   <feature id="org.lunifera.idesdk.feature.runtimeonly.allinone">
+      <category name="lunifera-runtime-components"/>
+   </feature>
    <category-def name="lunifera_ide_sdk" label="Lunifera IDE SDK"/>
    <category-def name="lunifera-runtime-components" label="Lunifera Runtime Components"/>
 </site>
