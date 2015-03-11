@@ -45,6 +45,7 @@
       <import feature="org.lunifera.tools.graphical.entity.feature.ui" version="0.9.1" match="equivalent"/>
       <import feature="org.lunifera.xtext.builder.feature.ui.access" version="0.9.1" match="equivalent"/>
       <import feature="org.lunifera.xtext.builder.feature.ui.access.source" version="0.9.1" match="equivalent"/>
+      <import feature="org.eclipse.xtend.sdk" version="2.7.3" match="equivalent"/>
    </requires>
 
    <plugin
