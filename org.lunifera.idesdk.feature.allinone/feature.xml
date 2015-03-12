@@ -20,13 +20,14 @@
 
    <url>
       <update label="Lunifera Luna Lastest" url="http://lun.lunifera.org/downloads/p2/lunifera/luna/latest/"/>
+      <discovery label="Ecliptical Mirror" url="http://lun.lunifera.org/downloads/p2/mirrors/ecliptical/"/>
    </url>
 
    <requires>
       <import feature="org.eclipse.xtext.sdk" version="2.7.3" match="equivalent"/>
       <import feature="org.eclipse.m2e.feature" version="1.5.0" match="equivalent"/>
       <import feature="org.eclipse.m2e.logback.feature" version="1.5.0" match="equivalent"/>
-      <import feature="ca.ecliptical.pde.ds" version="1.1.0" match="equivalent"/>
+      <import feature="ca.ecliptical.pde.ds" version="1.2.2" match="equivalent"/>
       <import feature="org.eclipse.sirius.runtime" version="1.0.1" match="equivalent"/>
       <import feature="org.eclipse.sirius.runtime.ide.ui" version="1.0.1" match="equivalent"/>
       <import feature="org.semanticsoft.vaaclipse.tools.feature.ide" version="2.7.3" match="equivalent"/>
