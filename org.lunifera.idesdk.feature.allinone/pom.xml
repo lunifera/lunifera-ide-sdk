@@ -23,14 +23,6 @@
 	<artifactId>org.lunifera.idesdk.feature.allinone</artifactId>
 	<packaging>eclipse-feature</packaging>
 
-	<repositories>
-		<repository>
-			<id>Ecliptical mirror</id>
-			<url>http://lun.lunifera.org/downloads/p2/mirrors/ecliptical/</url>
-			<layout>P2</layout>
-		</repository>
-	</repositories>
-
 	<dependencies>
 
 	</dependencies>

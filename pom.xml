@@ -50,7 +50,7 @@
 		<module>org.lunifera.idesdk.feature.jbpm</module>
 		<module>org.lunifera.idesdk.feature.runtime.allinone</module>
 		<module>org.lunifera.idesdk.feature.runtimeonly.allinone</module>
-		<!-- 		<module>org.lunifera.idesdk.feature.runtime.allinone.testframework</module> -->
+		<!-- <module>org.lunifera.idesdk.feature.runtime.allinone.testframework</module> -->
 		<module>org.lunifera.idesdk.p2</module>
 		<module>org.lunifera.idesdk.branding</module>
 	</modules>
@@ -59,6 +59,11 @@
 		<repository>
 			<id>e4tools</id>
 			<url>http://download.eclipse.org/e4/downloads/drops/S-0.17-201501051100/repository</url>
+			<layout>p2</layout>
+		</repository>
+		<repository>
+			<id>Ecliptical mirror</id>
+			<url>http://lun.lunifera.org/downloads/p2/mirrors/ecliptical/</url>
 			<layout>p2</layout>
 		</repository>
 	</repositories>
