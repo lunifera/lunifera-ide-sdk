@@ -27,6 +27,7 @@
 		<repository>
 			<id>Ecliptical mirror</id>
 			<url>http://lun.lunifera.org/downloads/p2/mirrors/ecliptical/</url>
+			<layout>P2</layout>
 		</repository>
 	</repositories>
 
