@@ -63,7 +63,6 @@
       <import plugin="org.eclipse.jetty.server" version="8.1.16" match="equivalent"/>
       <import plugin="org.eclipse.jetty.servlet" version="8.1.16" match="equivalent"/>
       <import plugin="org.eclipse.jetty.util" version="8.1.16" match="equivalent"/>
-      <import feature="org.eclipse.equinox.core.sdk" version="3.10.0" match="equivalent"/>
       <import plugin="org.eclipse.xtext" version="2.7.3" match="equivalent"/>
       <import plugin="org.eclipse.xtext.common.types" version="2.7.3" match="equivalent"/>
       <import plugin="org.eclipse.xtext.util" version="2.7.3" match="equivalent"/>
@@ -71,6 +70,40 @@
       <import plugin="org.eclipse.xtext.xbase.lib" version="2.7.3" match="equivalent"/>
       <import plugin="org.eclipse.xtend.lib" version="2.7.3" match="equivalent"/>
       <import plugin="org.eclipse.xtend.lib.macro" version="2.7.3" match="equivalent"/>
+      <import plugin="org.eclipse.equinox.app"/>
+      <import plugin="org.eclipse.equinox.app.source"/>
+      <import plugin="org.eclipse.equinox.cm"/>
+      <import plugin="org.eclipse.equinox.cm.source"/>
+      <import plugin="org.eclipse.equinox.common"/>
+      <import plugin="org.eclipse.equinox.common.source"/>
+      <import plugin="org.eclipse.equinox.console"/>
+      <import plugin="org.eclipse.equinox.console.source"/>
+      <import plugin="org.eclipse.equinox.coordinator"/>
+      <import plugin="org.eclipse.equinox.coordinator.source"/>
+      <import plugin="org.eclipse.equinox.bidi"/>
+      <import plugin="org.eclipse.equinox.ds"/>
+      <import plugin="org.eclipse.equinox.ds.source"/>
+      <import plugin="org.eclipse.equinox.event"/>
+      <import plugin="org.eclipse.equinox.event.source"/>
+      <import plugin="org.eclipse.equinox.http.registry"/>
+      <import plugin="org.eclipse.equinox.http.registry.source"/>
+      <import plugin="org.eclipse.equinox.http.servlet"/>
+      <import plugin="org.eclipse.equinox.http.servlet.source"/>
+      <import plugin="org.eclipse.equinox.preferences"/>
+      <import plugin="org.eclipse.equinox.preferences.source"/>
+      <import plugin="org.eclipse.equinox.region"/>
+      <import plugin="org.eclipse.equinox.region.source"/>
+      <import plugin="org.eclipse.equinox.registry"/>
+      <import plugin="org.eclipse.equinox.registry.source"/>
+      <import plugin="org.eclipse.equinox.util"/>
+      <import plugin="org.eclipse.equinox.util.source"/>
+      <import plugin="org.eclipse.jetty.continuation.source" version="8.1.16" match="equivalent"/>
+      <import plugin="org.eclipse.jetty.io.source" version="8.1.16" match="equivalent"/>
+      <import plugin="org.eclipse.jetty.security.source" version="8.1.16" match="equivalent"/>
+      <import plugin="org.eclipse.jetty.server.source" version="8.1.16" match="equivalent"/>
+      <import plugin="org.eclipse.jetty.servlet.source" version="8.1.16" match="equivalent"/>
+      <import plugin="org.eclipse.jetty.util.source" version="8.1.16" match="equivalent"/>
+      <import plugin="org.eclipse.jetty.http.source" version="8.1.16" match="equivalent"/>
    </requires>
 
 </feature>
