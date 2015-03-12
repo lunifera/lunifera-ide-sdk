@@ -3,9 +3,6 @@
    <feature id="org.lunifera.idesdk.feature.allinone">
       <category name="lunifera_ide_sdk"/>
    </feature>
-   <feature id="org.lunifera.idesdk.feature.jbpm">
-      <category name="lunifera_ide_sdk"/>
-   </feature>
    <feature id="org.lunifera.idesdk.feature.runtime.allinone">
       <category name="lunifera-runtime-components"/>
    </feature>

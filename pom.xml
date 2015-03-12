@@ -47,7 +47,7 @@
 
 	<modules>
 		<module>org.lunifera.idesdk.feature.allinone</module>
-		<module>org.lunifera.idesdk.feature.jbpm</module>
+<!-- 		<module>org.lunifera.idesdk.feature.jbpm</module> -->
 		<module>org.lunifera.idesdk.feature.runtime.allinone</module>
 		<module>org.lunifera.idesdk.feature.runtimeonly.allinone</module>
 		<!-- <module>org.lunifera.idesdk.feature.runtime.allinone.testframework</module> -->
