@@ -29,6 +29,9 @@
       <import feature="org.eclipse.gemini.naming.feature" version="1.0.5" match="equivalent"/>
       <import feature="org.eclipse.persistence.jpa" version="2.6.0" match="equivalent"/>
       <import feature="org.eclipse.persistence.jpa.source" version="2.6.0" match="equivalent"/>
+      <import plugin="ch.qos.logback.classic" version="1.0.7" match="greaterOrEqual"/>
+      <import plugin="ch.qos.logback.core" version="1.0.7" match="greaterOrEqual"/>
+      <import plugin="ch.qos.logback.slf4j" version="1.0.7" match="greaterOrEqual"/>
    </requires>
 
 </feature>
