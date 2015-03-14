@@ -48,7 +48,6 @@
       <import feature="org.lunifera.runtime.web.feature.vaadin.databinding" version="0.9.1" match="equivalent"/>
       <import feature="org.lunifera.runtime.web.feature.vaadin.databinding.source" version="0.9.1" match="equivalent"/>
       <import feature="org.lunifera.xtext.builder.feature.service.jvmtypes" version="0.9.1" match="equivalent"/>
-      <import feature="org.lunifera.xtext.builder.feature.service.xbase" version="0.9.1" match="equivalent"/>
       <import feature="org.lunifera.xtext.builder.feature.types" version="0.9.1" match="equivalent"/>
       <import feature="org.lunifera.xtext.builder.feature.types.source" version="0.9.1" match="equivalent"/>
       <import plugin="org.apache.felix.gogo.command" version="0.10.0" match="equivalent"/>
