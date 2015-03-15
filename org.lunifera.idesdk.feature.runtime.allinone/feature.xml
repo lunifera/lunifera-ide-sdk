@@ -101,6 +101,12 @@
       <import plugin="org.eclipse.jetty.servlet.source" version="8.1.16" match="equivalent"/>
       <import plugin="org.eclipse.jetty.util.source" version="8.1.16" match="equivalent"/>
       <import plugin="org.eclipse.jetty.http.source" version="8.1.16" match="equivalent"/>
+      
+      <import plugin="org.eclipse.core.databinding" version="1.4.1" match="equivalent"/>
+      <import plugin="org.eclipse.core.databinding.beans" version="1.2.200" match="equivalent"/>
+      <import plugin="org.eclipse.core.databinding.observable" version="1.4.1" match="equivalent"/>
+      <import plugin="org.eclipse.core.databinding.property" version="1.4.200" match="equivalent"/>
+      
    </requires>
 
 </feature>
