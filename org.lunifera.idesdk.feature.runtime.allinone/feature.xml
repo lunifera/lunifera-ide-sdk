@@ -37,6 +37,10 @@
       <import feature="org.lunifera.runtime.feature.common.source" version="0.9.1" match="equivalent"/>
       <import feature="org.lunifera.runtime.feature.e4eventmanager" version="0.9.1" match="equivalent"/>
       <import feature="org.lunifera.runtime.feature.e4eventmanager.source" version="0.9.1" match="equivalent"/>
+      <import feature="org.lunifera.runtime.feature.jsr303.validation" version="0.9.1" match="equivalent"/>
+      <import feature="org.lunifera.runtime.feature.jsr303.validation.source" version="0.9.1" match="equivalent"/>
+      <import feature="org.lunifera.runtime.feature.datasource.provider" version="0.9.1" match="equivalent"/>
+      <import feature="org.lunifera.runtime.feature.datasource.provider.source" version="0.9.1" match="equivalent"/>
       <import feature="org.lunifera.runtime.feature.resolverhooks" version="0.9.1" match="equivalent"/>
       <import feature="org.lunifera.runtime.feature.resolverhooks.source" version="0.9.1" match="equivalent"/>
       <import feature="org.lunifera.runtime.web.feature.ecview.presentation.vaadin" version="0.9.1" match="equivalent"/>
