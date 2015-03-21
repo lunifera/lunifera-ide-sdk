@@ -20,6 +20,7 @@
    <requires>
       <import feature="org.lunifera.ecview.feature.runtimeonly" version="0.9.1" match="equivalent"/>
       <import feature="org.lunifera.runtime.feature.typeprovider.bundlespace" version="0.9.1" match="equivalent"/>
+      <import feature="org.lunifera.runtime.feature.ecore.bundlespace" version="0.9.1" match="equivalent"/>
       <import feature="org.lunifera.xtext.builder.feature.runtime" version="0.9.1" match="equivalent"/>
       <import feature="org.lunifera.xtext.builder.feature.service.jvmtypes" version="0.9.1" match="equivalent"/>
       <import feature="org.lunifera.idesdk.feature.runtime.allinone" version="0.9.1" match="equivalent"/>
