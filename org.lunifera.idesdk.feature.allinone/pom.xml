@@ -27,6 +27,21 @@
 
 	</dependencies>
 
+	<repositories>
+		<repository>
+			<name>Buildhelper m2e Stuff</name>
+			<id>sonatype-buildhelper</id>
+			<layout>p2</layout>
+			<url>http://repo1.maven.org/maven2/.m2e/connectors/m2eclipse-buildhelper/0.15.0/N/0.15.0.201207090124/</url>
+		</repository>
+		<repository>
+			<name>Tycho m2e Stuff</name>
+			<id>sonatype-tycho</id>
+			<layout>p2</layout>
+			<url>http://repo1.maven.org/maven2/.m2e/connectors/m2eclipse-tycho/0.8.0/N/0.8.0.201409231215/</url>
+		</repository>
+	</repositories>
+
 	<build>
 		<plugins>
 			<!-- <plugin> -->
