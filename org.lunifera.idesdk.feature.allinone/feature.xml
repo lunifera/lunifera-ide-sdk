@@ -48,10 +48,26 @@
       <import feature="org.lunifera.xtext.builder.feature.ui.access" version="0.9.1" match="equivalent"/>
       <import feature="org.lunifera.xtext.builder.feature.ui.access.source" version="0.9.1" match="equivalent"/>
       <import feature="org.eclipse.xtend.sdk" version="2.7.3" match="equivalent"/>
+      <import feature="org.sonatype.tycho.m2e.feature" version="0.8.0.201409231215"/>
+      <import feature="org.sonatype.m2e.buildhelper.feature" version="0.15.0.201207090124"/>
    </requires>
 
    <plugin
          id="org.lunifera.idesdk.branding"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.xtend.m2e"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.xtext.m2e"
          download-size="0"
          install-size="0"
          version="0.0.0"
