@@ -35,7 +35,7 @@
          version="0.0.0"/>
 
    <includes
-         id="org.sonatype.tycho.m2e.feature"
+         id="org.codehaus.groovy.m2eclipse.feature"
          version="0.0.0"/>
 
    <requires>
