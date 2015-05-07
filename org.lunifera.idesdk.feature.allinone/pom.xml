@@ -71,6 +71,7 @@
 						<plugin id="com.google.guava" />
 						<feature id="org.sonatype.tycho.m2e.feature" />
 						<feature id="org.sonatype.m2e.buildhelper.feature" />
+						<feature id="org.codehaus.groovy.m2eclipse.feature" />
 					</excludes>
 				</configuration>
 			</plugin>
