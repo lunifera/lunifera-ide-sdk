@@ -59,7 +59,6 @@
       <import feature="org.lunifera.ecview.feature.ide" version="0.9.1" match="equivalent"/>
       <import feature="org.lunifera.ecview.feature.ide.source" version="0.9.1" match="equivalent"/>
       <import feature="org.lunifera.ide.feature.ui" version="0.9.1" match="equivalent"/>
-      <import feature="org.lunifera.ide.feature.ui.source" version="0.9.1" match="equivalent"/>
       <import feature="org.lunifera.idesdk.feature.runtime.allinone" version="0.9.1" match="equivalent"/>
       <import feature="org.lunifera.idesdk.feature.runtime.allinone.source" version="0.9.1" match="equivalent"/>
       <import feature="org.lunifera.tools.graphical.entity.feature.ui" version="0.9.1" match="equivalent"/>
