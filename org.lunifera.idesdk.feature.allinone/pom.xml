@@ -50,28 +50,31 @@
 
 	<build>
 		<plugins>
-			<!-- <plugin> -->
-			<!-- <groupId>org.eclipse.tycho.extras</groupId> -->
-			<!-- <artifactId>tycho-source-feature-plugin</artifactId> -->
-			<!-- <version>${tycho-version}</version> -->
-			<!-- <executions> -->
-			<!-- <execution> -->
-			<!-- <id>source-feature</id> -->
-			<!-- <phase>package</phase> -->
-			<!-- <goals> -->
-			<!-- <goal>source-feature</goal> -->
-			<!-- </goals> -->
-			<!-- </execution> -->
-			<!-- </executions> -->
-			<!-- <configuration> -->
-			<!-- <labelSuffix> (source)</labelSuffix> -->
-			<!-- <excludes> -->
-			<!-- <plugin id="com.ibm.icu" /> -->
-			<!-- <plugin id="org.apache.commons.cli" /> -->
-			<!-- <plugin id="com.google.guava" /> -->
-			<!-- </excludes> -->
-			<!-- </configuration> -->
-			<!-- </plugin> -->
+			<plugin>
+				<groupId>org.eclipse.tycho.extras</groupId>
+				<artifactId>tycho-source-feature-plugin</artifactId>
+				<version>${tycho-version}</version>
+				<executions>
+					<execution>
+						<id>source-feature</id>
+						<phase>package</phase>
+						<goals>
+							<goal>source-feature</goal>
+						</goals>
+					</execution>
+				</executions>
+				<configuration>
+					<labelSuffix> (source)</labelSuffix>
+					<excludes>
+						<plugin id="com.ibm.icu" />
+						<plugin id="org.apache.commons.cli" />
+						<plugin id="com.google.guava" />
+						<feature id="org.sonatype.tycho.m2e.feature" />
+						<feature id="org.sonatype.m2e.buildhelper.feature" />
+						<feature id="org.codehaus.groovy.m2eclipse.feature" />
+					</excludes>
+				</configuration>
+			</plugin>
 			<plugin>
 				<!-- workaround while bug https://bugs.eclipse.org/bugs/show_bug.cgi?id=398250 
 					is not fixed -->
