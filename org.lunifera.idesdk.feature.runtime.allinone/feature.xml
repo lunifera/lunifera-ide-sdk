@@ -28,7 +28,9 @@
       <import feature="org.lunifera.dsl.feature.entities.headless" version="0.9.1" match="equivalent"/>
       <import feature="org.lunifera.dsl.feature.entities.headless.source" version="0.9.1" match="equivalent"/>
       <import feature="org.lunifera.ecview.core.feature.core" version="0.9.1" match="equivalent"/>
+      <import feature="org.lunifera.ecview.core.feature.core.source" version="0.9.1" match="equivalent"/>
       <import feature="org.lunifera.ecview.feature.runtime" version="0.9.1" match="equivalent"/>
+      <import feature="org.lunifera.ecview.feature.runtime.source" version="0.9.1" match="equivalent"/>
       <import feature="org.lunifera.mobile.vaadin.feature.ecview" version="0.9.1" match="equivalent"/>
       <import feature="org.lunifera.mobile.vaadin.feature.ecview.source" version="0.9.1" match="equivalent"/>
       <import feature="org.lunifera.mobile.vaadin.feature.touchkit" version="0.9.1" match="equivalent"/>
