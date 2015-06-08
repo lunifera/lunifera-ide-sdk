@@ -114,6 +114,37 @@
       <import plugin="org.eclipse.core.databinding.observable" version="1.4.1" match="equivalent"/>
       <import plugin="org.eclipse.core.databinding.property" version="1.4.200" match="equivalent"/>
       
+      <import feature="org.eclipse.sirius.runtime" version="2.0.0" match="equivalent"/>
+      <import feature="org.eclipse.sirius.runtime.source" version="2.0.0" match="equivalent"/>
+      <import feature="org.eclipse.sirius.runtime.acceleo" version="2.0.0" match="equivalent"/>
+      <import feature="org.eclipse.sirius.runtime.acceleo.source" version="2.0.0" match="equivalent"/>
+      <import feature="org.eclipse.sirius.runtime.aql" version="2.0.0" match="equivalent"/>
+      <import feature="org.eclipse.sirius.runtime.aql.source" version="2.0.0" match="equivalent"/>
+      <import feature="org.eclipse.sirius.runtime.ocl" version="2.0.0" match="equivalent"/>
+      <import feature="org.eclipse.sirius.runtime.ocl.source" version="2.0.0" match="equivalent"/>
+      <import feature="org.eclipse.sirius.runtime.ide.ui" version="2.0.0" match="equivalent"/>
+      <import feature="org.eclipse.sirius.runtime.ide.ui.source" version="2.0.0" match="equivalent"/>
+      <import feature="org.eclipse.sirius.specifier" version="2.0.0" match="equivalent"/>
+      <import feature="org.eclipse.sirius.specifier.source" version="2.0.0" match="equivalent"/>
+      <import feature="org.eclipse.sirius.specifier.ide.ui" version="2.0.0" match="equivalent"/>
+      <import feature="org.eclipse.sirius.specifier.ide.ui.source" version="2.0.0" match="equivalent"/>
+      <import feature="org.eclipse.sirius.runtime.ide.xtext" version="2.0.0" match="equivalent"/>
+      <import feature="org.eclipse.sirius.runtime.ide.xtext.source" version="2.0.0" match="equivalent"/>
+      <import feature="org.eclipse.sirius.runtime.ide.eef" version="2.0.0" match="equivalent"/>
+      <import feature="org.eclipse.sirius.runtime.ide.eef.source" version="2.0.0" match="equivalent"/>
+      <import feature="org.eclipse.sirius.runtime.ide.ui.acceleo" version="2.0.0" match="equivalent"/>
+      <import feature="org.eclipse.sirius.runtime.ide.ui.acceleo.source" version="2.0.0" match="equivalent"/>
+      <import feature="org.eclipse.sirius.specifier.ide.ui.acceleo" version="2.0.0" match="equivalent"/>
+      <import feature="org.eclipse.sirius.specifier.ide.ui.acceleo.source" version="2.0.0" match="equivalent"/>
+      <import feature="org.eclipse.sirius.specifier.ide.ui.aql" version="2.0.0" match="equivalent"/>
+      <import feature="org.eclipse.sirius.specifier.ide.ui.aql.source" version="2.0.0" match="equivalent"/>
+      <import feature="org.eclipse.sirius.doc.feature" version="2.0.0" match="equivalent"/>
+      <import feature="org.eclipse.sirius.doc.feature.source" version="2.0.0" match="equivalent"/>
+      <import feature="org.eclipse.sirius.samples" version="2.0.0" match="equivalent"/>
+      <import feature="org.eclipse.sirius.samples.source" version="2.0.0" match="equivalent"/>
+      <import feature="org.eclipse.sirius.tests.support" version="2.0.0" match="equivalent"/>
+      <import feature="org.eclipse.sirius.tests.support.source" version="2.0.0" match="equivalent"/>
+      
    </requires>
 
 </feature>
