@@ -47,7 +47,7 @@
 
 	<modules>
 		<module>org.lunifera.idesdk.feature.allinone</module>
-<!-- 		<module>org.lunifera.idesdk.feature.jbpm</module> -->
+		<!-- <module>org.lunifera.idesdk.feature.jbpm</module> -->
 		<module>org.lunifera.idesdk.feature.runtime.allinone</module>
 		<module>org.lunifera.idesdk.feature.runtimeonly.allinone</module>
 		<!-- <module>org.lunifera.idesdk.feature.runtime.allinone.testframework</module> -->
@@ -69,6 +69,21 @@
 		<repository>
 			<id>Sirius 2.0</id>
 			<url>http://download.eclipse.org/sirius/updates/releases/2.0.0/luna/</url>
+			<layout>p2</layout>
+		</repository>
+		<repository>
+			<id>Sirius Nightly</id>
+			<url>http://download.eclipse.org/sirius/updates/nightly/latest/luna/</url>
+			<layout>p2</layout>
+		</repository>
+		<repository>
+			<id>Acceleo Stuff</id>
+			<url>https://hudson.eclipse.org/acceleo/job/acceleo-master/532/artifact/releng/org.eclipse.acceleo-updatesite/target/repository/</url>
+			<layout>p2</layout>
+		</repository>
+		<repository>
+			<id>swtbot</id>
+			<url>http://download.eclipse.org/technology/swtbot/releases/2.2.1/</url>
 			<layout>p2</layout>
 		</repository>
 	</repositories>
