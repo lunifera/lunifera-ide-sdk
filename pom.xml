@@ -72,16 +72,6 @@
 			<layout>p2</layout>
 		</repository>
 		<repository>
-			<id>Sirius Nightly</id>
-			<url>http://download.eclipse.org/sirius/updates/nightly/latest/luna/</url>
-			<layout>p2</layout>
-		</repository>
-		<repository>
-			<id>Acceleo Stuff</id>
-			<url>https://hudson.eclipse.org/acceleo/job/acceleo-master/532/artifact/releng/org.eclipse.acceleo-updatesite/target/repository/</url>
-			<layout>p2</layout>
-		</repository>
-		<repository>
 			<id>swtbot</id>
 			<url>http://download.eclipse.org/technology/swtbot/releases/2.2.1/</url>
 			<layout>p2</layout>
