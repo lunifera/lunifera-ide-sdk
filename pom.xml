@@ -68,7 +68,7 @@
 		</repository>
 		<repository>
 			<id>Sirius 2.0</id>
-			<url>http://download.eclipse.org/sirius/updates/releases/2.0.0/luna/</url>
+			<url>http://download.eclipse.org/sirius/updates/releases/2.0.3/luna/</url>
 			<layout>p2</layout>
 		</repository>
 		<repository>
