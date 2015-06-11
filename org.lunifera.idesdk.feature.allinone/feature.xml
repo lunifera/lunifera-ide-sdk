@@ -39,15 +39,8 @@
          version="0.0.0"/>
 
    <requires>
-      <import feature="org.eclipse.xtext.sdk" version="2.7.3" match="equivalent"/>
-      <import feature="org.eclipse.m2e.feature" version="1.5.0" match="equivalent"/>
-      <import feature="org.eclipse.m2e.logback.feature" version="1.5.0" match="equivalent"/>
-      <import feature="ca.ecliptical.pde.ds" version="1.2.2" match="equivalent"/>
-      <import feature="org.eclipse.emf.ecore.xcore.sdk" version="1.2.1" match="equivalent"/>
-<!--      <import feature="org.eclipse.sirius.runtime" version="1.0.1" match="equivalent"/>
-      <import feature="org.eclipse.sirius.runtime.ide.ui" version="1.0.1" match="equivalent"/> -->
       <import feature="org.semanticsoft.vaaclipse.tools.feature.ide" version="2.7.3" match="equivalent"/> 
-      <import feature="org.eclipse.e4.core.tools.feature"/>
+
       <import feature="org.lunifera.dsl.feature.common" version="0.9.1" match="equivalent"/>
       <import feature="org.lunifera.dsl.feature.common.source" version="0.9.1" match="equivalent"/>
       <import feature="org.lunifera.dsl.feature.dto" version="0.9.1" match="equivalent"/>
@@ -65,7 +58,18 @@
       <import feature="org.lunifera.tools.graphical.entity.feature.ui.source" version="0.9.1" match="equivalent"/>
       <import feature="org.lunifera.xtext.builder.feature.ui.access" version="0.9.1" match="equivalent"/>
       <import feature="org.lunifera.xtext.builder.feature.ui.access.source" version="0.9.1" match="equivalent"/>
+
+      <import feature="org.eclipse.m2e.feature" version="1.5.0" match="equivalent"/>
+      <import feature="org.eclipse.m2e.logback.feature" version="1.5.0" match="equivalent"/>
+
+      <import feature="ca.ecliptical.pde.ds" version="1.2.2" match="equivalent"/>
+
+      <import feature="org.eclipse.emf.ecore.xcore.sdk" version="1.2.1" match="equivalent"/>
+
+      <import feature="org.eclipse.xtext.sdk" version="2.7.3" match="equivalent"/>
       <import feature="org.eclipse.xtend.sdk" version="2.7.3" match="equivalent"/>
+
+      <import feature="org.eclipse.e4.core.tools.feature"/>
       
       <import feature="org.eclipse.sirius.doc.feature" version="2.0.0" match="equivalent"/>
       <import feature="org.eclipse.sirius.doc.feature.source" version="2.0.0" match="equivalent"/>
@@ -91,6 +95,8 @@
       <import feature="org.eclipse.sirius.samples.source" version="2.0.0" match="equivalent"/>
       <import feature="org.eclipse.sirius.tests.support" version="2.0.0" match="equivalent"/>
       <import feature="org.eclipse.sirius.tests.support.source" version="2.0.0" match="equivalent"/>
+
+      <import feature="org.eclipse.emf.ecoretools.sdk" version="2.0.3" match="equivalent"/>
    </requires>
 
    <plugin

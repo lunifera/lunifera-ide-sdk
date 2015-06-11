@@ -48,6 +48,11 @@
 			<layout>p2</layout>
 			<url>http://dist.springsource.org/release/GRECLIPSE/e4.4</url>
 		</repository>
+		<repository>
+			<id>ecoretools</id>
+			<url>http://download.eclipse.org/ecoretools/updates/releases/2.0.3/luna/</url>
+			<layout>p2</layout>
+		</repository>
 	</repositories>
 
 
