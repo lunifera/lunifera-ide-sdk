@@ -53,6 +53,11 @@
 			<url>http://download.eclipse.org/ecoretools/updates/releases/2.0.3/luna/</url>
 			<layout>p2</layout>
 		</repository>
+		<repository>
+			<id>Obeo-BPMN</id>
+			<url>http://marketplace.obeonetwork.com/updates/sirius2.0/</url>
+			<layout>p2</layout>
+		</repository>
 	</repositories>
 
 
@@ -80,10 +85,11 @@
 				<groovy-m2e-p2>http://dist.springsource.org/release/GRECLIPSE/e4.4</groovy-m2e-p2>
 				<sirius-p2>http://download.eclipse.org/sirius/updates/releases/2.0.3/luna/</sirius-p2>
 				<swtbot-p2>http://download.eclipse.org/technology/swtbot/releases/2.2.1/</swtbot-p2>
+				<obeo-bpmn-p2>http://marketplace.obeonetwork.com/updates/sirius2.0/</obeo-bpmn-p2>
 				<associate.p2>
 					${lunifera.build.eclipse.platform.p2.url},${orbit-site},${xtext-p2},${bpmnmodeler-p2},${drools-p2},
 					${ecliptical-p2},${ecliptical-backup-p2},${gemini-dbaccess-p2},${gemini-jpa-p2},${gemini-naming-p2},
-					${tycho-m2e-p2},${buildhelper-m2e-p2},${groovy-m2e-p2},${sirius-p2},${swtbot-p2}
+					${tycho-m2e-p2},${buildhelper-m2e-p2},${groovy-m2e-p2},${sirius-p2},${swtbot-p2},${obeo-bpmn-p2}
 				</associate.p2>
 			</properties>
 			<build>
