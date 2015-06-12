@@ -78,7 +78,7 @@
 				<tycho-m2e-p2>http://repo1.maven.org/maven2/.m2e/connectors/m2eclipse-tycho/0.8.0/N/0.8.0.201409231215/</tycho-m2e-p2>
 				<buildhelper-m2e-p2>http://repo1.maven.org/maven2/.m2e/connectors/m2eclipse-buildhelper/0.15.0/N/0.15.0.201207090124/</buildhelper-m2e-p2>
 				<groovy-m2e-p2>http://dist.springsource.org/release/GRECLIPSE/e4.4</groovy-m2e-p2>
-				<sirius-p2>http://download.eclipse.org/sirius/updates/releases/2.0.0/luna/</sirius-p2>
+				<sirius-p2>http://download.eclipse.org/sirius/updates/releases/2.0.3/luna/</sirius-p2>
 				<swtbot-p2>http://download.eclipse.org/technology/swtbot/releases/2.2.1/</swtbot-p2>
 				<associate.p2>
 					${lunifera.build.eclipse.platform.p2.url},${orbit-site},${xtext-p2},${bpmnmodeler-p2},${drools-p2},
