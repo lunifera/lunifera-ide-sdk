@@ -19,6 +19,7 @@
 
    <requires>
       <import feature="org.lunifera.dependencies.feature.atmosphere" version="2.1.2.vaadin6" match="equivalent"/>
+      <import feature="org.lunifera.dependencies.feature.beanvalidation" version="0.5.0" match="equivalent"/>
       <import feature="org.lunifera.dependencies.feature.jetty.websockets" version="8.1.15" match="equivalent"/>
       <import feature="org.lunifera.dependencies.feature.vaadin" version="7.3.8" match="equivalent"/>
       <import feature="org.lunifera.dsl.feature.common.headless" version="0.9.1" match="equivalent"/>
