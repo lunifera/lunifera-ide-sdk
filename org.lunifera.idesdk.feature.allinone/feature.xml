@@ -39,7 +39,7 @@
          version="0.0.0"/>
 
    <requires>
-      <import feature="org.lunifera.vaaclipse.tools.feature.ide" version="2.7.3" match="equivalent"/> 
+      <import feature="org.semanticsoft.vaaclipse.tools.feature.ide" version="2.7.3" match="equivalent"/> 
 
       <import feature="org.lunifera.dsl.feature.common" version="0.9.1" match="equivalent"/>
       <import feature="org.lunifera.dsl.feature.common.source" version="0.9.1" match="equivalent"/>
