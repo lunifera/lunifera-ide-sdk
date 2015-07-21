@@ -113,6 +113,8 @@
       <import plugin="org.eclipse.core.databinding.beans" version="1.2.200" match="equivalent"/>
       <import plugin="org.eclipse.core.databinding.observable" version="1.4.1" match="equivalent"/>
       <import plugin="org.eclipse.core.databinding.property" version="1.4.200" match="equivalent"/>
+
+      <import plugin="org.lunifera.runtime.logback.fragment" version="0.9.1" match="equivalent"/>
    </requires>
 
    <plugin
