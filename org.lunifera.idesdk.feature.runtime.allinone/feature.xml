@@ -115,6 +115,7 @@
       <import plugin="org.eclipse.core.databinding.property" version="1.4.200" match="equivalent"/>
 
       <import plugin="org.lunifera.runtime.logback.fragment" version="0.9.1" match="equivalent"/>
+      <import plugin="org.lunifera.runtime.logback.fragment.source" version="0.9.1" match="equivalent"/>
    </requires>
 
    <plugin
