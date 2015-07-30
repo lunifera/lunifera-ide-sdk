@@ -19,6 +19,7 @@
 
    <requires>
       <import feature="org.lunifera.dependencies.feature.atmosphere" version="2.1.2.vaadin6" match="equivalent"/>
+      <import feature="org.lunifera.dependencies.feature.beanvalidation" version="0.5.0" match="equivalent"/>
       <import feature="org.lunifera.dependencies.feature.jetty.websockets" version="8.1.15" match="equivalent"/>
       <import feature="org.lunifera.dependencies.feature.vaadin" version="7.3.8" match="equivalent"/>
       <import feature="org.lunifera.dsl.feature.common.headless" version="0.9.1" match="equivalent"/>
@@ -27,8 +28,12 @@
       <import feature="org.lunifera.dsl.feature.dto.headless.source" version="0.9.1" match="equivalent"/>
       <import feature="org.lunifera.dsl.feature.entities.headless" version="0.9.1" match="equivalent"/>
       <import feature="org.lunifera.dsl.feature.entities.headless.source" version="0.9.1" match="equivalent"/>
+      <import feature="org.lunifera.dsl.feature.metadata.builder.participant" version="0.9.1" match="equivalent"/>
+      <import feature="org.lunifera.dsl.feature.metadata.builder.participant.source" version="0.9.1" match="equivalent"/>
       <import feature="org.lunifera.ecview.core.feature.core" version="0.9.1" match="equivalent"/>
+      <import feature="org.lunifera.ecview.core.feature.core.source" version="0.9.1" match="equivalent"/>
       <import feature="org.lunifera.ecview.feature.runtime" version="0.9.1" match="equivalent"/>
+      <import feature="org.lunifera.ecview.feature.runtime.source" version="0.9.1" match="equivalent"/>
       <import feature="org.lunifera.mobile.vaadin.feature.ecview" version="0.9.1" match="equivalent"/>
       <import feature="org.lunifera.mobile.vaadin.feature.ecview.source" version="0.9.1" match="equivalent"/>
       <import feature="org.lunifera.mobile.vaadin.feature.touchkit" version="0.9.1" match="equivalent"/>
@@ -104,12 +109,20 @@
       <import plugin="org.eclipse.jetty.servlet.source" version="8.1.16" match="equivalent"/>
       <import plugin="org.eclipse.jetty.util.source" version="8.1.16" match="equivalent"/>
       <import plugin="org.eclipse.jetty.http.source" version="8.1.16" match="equivalent"/>
-      
       <import plugin="org.eclipse.core.databinding" version="1.4.1" match="equivalent"/>
       <import plugin="org.eclipse.core.databinding.beans" version="1.2.200" match="equivalent"/>
       <import plugin="org.eclipse.core.databinding.observable" version="1.4.1" match="equivalent"/>
       <import plugin="org.eclipse.core.databinding.property" version="1.4.200" match="equivalent"/>
-      
+
+      <import plugin="org.lunifera.runtime.logback.fragment" version="0.9.1" match="equivalent"/>
+      <import plugin="org.lunifera.runtime.logback.fragment.source" version="0.9.1" match="equivalent"/>
    </requires>
+
+   <plugin
+         id="org.apache.commons.lang3"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
 
 </feature>

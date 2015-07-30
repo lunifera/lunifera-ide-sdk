@@ -12,9 +12,9 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>org.lunifera.releng.maven</groupId>
-		<artifactId>lunifera-releng-maven-parent-tycho</artifactId>
-		<version>0.12.5-SNAPSHOT</version>
+		<groupId>org.lunifera.idesdk</groupId>
+		<artifactId>org.lunifera.idesdk</artifactId>
+		<version>0.9.1-SNAPSHOT</version>
 	</parent>
 
 	<artifactId>org.lunifera.idesdk.p2</artifactId>
@@ -28,6 +28,34 @@
 		<repository>
 			<id>e4tools</id>
 			<url>http://download.eclipse.org/e4/downloads/drops/S-0.17-201501051100/repository</url>
+			<layout>p2</layout>
+		</repository>
+		<repository>
+			<name>Buildhelper m2e Stuff</name>
+			<id>sonatype-buildhelper</id>
+			<layout>p2</layout>
+			<url>http://repo1.maven.org/maven2/.m2e/connectors/m2eclipse-buildhelper/0.15.0/N/0.15.0.201207090124/</url>
+		</repository>
+		<repository>
+			<name>Tycho m2e Stuff</name>
+			<id>sonatype-tycho</id>
+			<layout>p2</layout>
+			<url>http://repo1.maven.org/maven2/.m2e/connectors/m2eclipse-tycho/0.8.0/N/0.8.0.201409231215/</url>
+		</repository>
+		<repository>
+			<name>Groovy m2e Stuff</name>
+			<id>groovy</id>
+			<layout>p2</layout>
+			<url>http://dist.springsource.org/release/GRECLIPSE/e4.4</url>
+		</repository>
+		<repository>
+			<id>ecoretools</id>
+			<url>http://download.eclipse.org/ecoretools/updates/releases/2.0.3/luna/</url>
+			<layout>p2</layout>
+		</repository>
+		<repository>
+			<id>Obeo-BPMN</id>
+			<url>http://marketplace.obeonetwork.com/updates/sirius2.0/</url>
 			<layout>p2</layout>
 		</repository>
 	</repositories>
@@ -52,10 +80,16 @@
 				<gemini-dbaccess-p2>http://download.eclipse.org/gemini/updates/dbaccess/1.1.0</gemini-dbaccess-p2>
 				<gemini-jpa-p2>http://download.eclipse.org/gemini/jpa/updates</gemini-jpa-p2>
 				<gemini-naming-p2>http://download.eclipse.org/gemini/updates/naming/1.0.5/</gemini-naming-p2>
+				<tycho-m2e-p2>http://repo1.maven.org/maven2/.m2e/connectors/m2eclipse-tycho/0.8.0/N/0.8.0.201409231215/</tycho-m2e-p2>
+				<buildhelper-m2e-p2>http://repo1.maven.org/maven2/.m2e/connectors/m2eclipse-buildhelper/0.15.0/N/0.15.0.201207090124/</buildhelper-m2e-p2>
+				<groovy-m2e-p2>http://dist.springsource.org/release/GRECLIPSE/e4.4</groovy-m2e-p2>
+				<sirius-p2>http://download.eclipse.org/sirius/updates/releases/2.0.3/luna/</sirius-p2>
+				<swtbot-p2>http://download.eclipse.org/technology/swtbot/releases/2.2.1/</swtbot-p2>
+				<obeo-bpmn-p2>http://marketplace.obeonetwork.com/updates/sirius2.0/</obeo-bpmn-p2>
 				<associate.p2>
 					${lunifera.build.eclipse.platform.p2.url},${orbit-site},${xtext-p2},${bpmnmodeler-p2},${drools-p2},
-					${lunifera.build.remote.federated.p2.url},${ecliptical-p2},${ecliptical-backup-p2},${gemini-dbaccess-p2},
-					${gemini-jpa-p2},${gemini-naming-p2}
+					${ecliptical-p2},${ecliptical-backup-p2},${gemini-dbaccess-p2},${gemini-jpa-p2},${gemini-naming-p2},
+					${tycho-m2e-p2},${buildhelper-m2e-p2},${groovy-m2e-p2},${sirius-p2},${swtbot-p2},${obeo-bpmn-p2}
 				</associate.p2>
 			</properties>
 			<build>
@@ -111,6 +145,4 @@
 	</profiles>
 
 
-	<groupId>org.lunifera.idesdk</groupId>
-	<version>0.9.1-SNAPSHOT</version>
 </project>
