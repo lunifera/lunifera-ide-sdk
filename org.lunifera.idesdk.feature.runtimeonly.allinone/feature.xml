@@ -29,7 +29,6 @@
       <import feature="org.semanticsoft.vaaclipse.feature.runtime.core" version="2.7.3" match="equivalent"/>
       <import feature="org.eclipse.gemini.dbaccess.feature" version="1.1.0" match="equivalent"/>
       <import feature="org.eclipse.gemini.jpa.feature" version="1.1.0" match="greaterOrEqual"/>
-      <import feature="org.eclipse.gemini.naming.feature" version="1.0.5" match="equivalent"/>
       <import feature="org.eclipse.persistence.jpa" version="2.6.0" match="equivalent"/>
       <import feature="org.eclipse.persistence.jpa.source" version="2.6.0" match="equivalent"/>
       <import plugin="ch.qos.logback.classic" version="1.0.7" match="greaterOrEqual"/>
