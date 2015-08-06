@@ -38,6 +38,8 @@
       <import feature="org.lunifera.mobile.vaadin.feature.ecview.source" version="0.9.1" match="equivalent"/>
       <import feature="org.lunifera.mobile.vaadin.feature.touchkit" version="0.9.1" match="equivalent"/>
       <import feature="org.lunifera.mobile.vaadin.feature.touchkit.source" version="0.9.1" match="equivalent"/>
+      <import feature="org.lunifera.dependencies.feature.gemini.naming" version="1.1.0" match="equivalent"/>
+      <import feature="org.lunifera.dependencies.feature.gemini.naming.source" version="1.1.0" match="equivalent"/>
       <import feature="org.lunifera.runtime.feature.common" version="0.9.1" match="equivalent"/>
       <import feature="org.lunifera.runtime.feature.common.source" version="0.9.1" match="equivalent"/>
       <import feature="org.lunifera.runtime.feature.e4eventmanager" version="0.9.1" match="equivalent"/>
