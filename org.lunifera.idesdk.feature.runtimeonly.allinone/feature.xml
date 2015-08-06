@@ -18,18 +18,20 @@
    </license>
 
    <requires>
+      <import feature="org.lunifera.idesdk.feature.runtime.allinone" version="0.9.1" match="equivalent"/>
+
+      <import feature="org.lunifera.dependencies.feature.gemini.jpa" version="1.2.0" match="equivalent"/>
+      <import feature="org.lunifera.dependencies.feature.gemini.naming" version="1.1.0" match="equivalent"/>
+      <import feature="org.lunifera.ecview.feature.jetty" version="0.9.1" match="equivalent"/>
       <import feature="org.lunifera.ecview.feature.runtimeonly" version="0.9.1" match="equivalent"/>
       <import feature="org.lunifera.runtime.feature.typeprovider.bundlespace" version="0.9.1" match="equivalent"/>
       <import feature="org.lunifera.runtime.feature.ecore.bundlespace" version="0.9.1" match="equivalent"/>
+      <import feature="org.lunifera.vaaclipse.addons.feature" version="0.9.1" match="equivalent"/>
       <import feature="org.lunifera.xtext.builder.feature.runtime" version="0.9.1" match="equivalent"/>
       <import feature="org.lunifera.xtext.builder.feature.service.jvmtypes" version="0.9.1" match="equivalent"/>
-      <import feature="org.lunifera.idesdk.feature.runtime.allinone" version="0.9.1" match="equivalent"/>
-      <import feature="org.lunifera.ecview.feature.jetty" version="0.9.1" match="equivalent"/>
-      <import feature="org.lunifera.vaaclipse.addons.feature" version="0.9.1" match="equivalent"/>
       <import feature="org.semanticsoft.vaaclipse.feature.runtime.core" version="2.7.3" match="equivalent"/>
       <import feature="org.eclipse.gemini.dbaccess.feature" version="1.1.0" match="equivalent"/>
       <import feature="org.eclipse.gemini.jpa.feature" version="1.1.0" match="greaterOrEqual"/>
-      <import feature="org.eclipse.gemini.naming.feature" version="1.0.5" match="equivalent"/>
       <import feature="org.eclipse.persistence.jpa" version="2.6.0" match="equivalent"/>
       <import feature="org.eclipse.persistence.jpa.source" version="2.6.0" match="equivalent"/>
       <import plugin="ch.qos.logback.classic" version="1.0.7" match="greaterOrEqual"/>

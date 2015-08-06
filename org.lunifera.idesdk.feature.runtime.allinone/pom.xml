@@ -35,7 +35,7 @@
 						<plugin id="com.vaadin.external.atmosphere.runtime" />
 						<plugin id="com.vaadin.external.org.slf4j" />
 						<plugin id="com.vaadin.external.org.slf4j" />
-						yes, we need to exclude that twice. Don't ask me why.
+<!-- 						yes, we need to exclude that twice. Don't ask me why. -->
 						<plugin id="com.vaadin.push" />
 						<plugin id="com.vaadin.server" />
 						<plugin id="com.vaadin.shared" />
