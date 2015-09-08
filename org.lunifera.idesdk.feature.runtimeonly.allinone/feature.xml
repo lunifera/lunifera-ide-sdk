@@ -22,6 +22,8 @@
 
       <import feature="org.lunifera.dependencies.feature.gemini.jpa" version="1.2.0" match="equivalent"/>
       <import feature="org.lunifera.dependencies.feature.gemini.naming" version="1.1.0" match="equivalent"/>
+      <import feature="org.lunifera.dsl.feature.metadata.builder.participant" version="0.9.1" match="equivalent"/>
+      <import feature="org.lunifera.dsl.feature.metadata.builder.participant.source" version="0.9.1" match="equivalent"/>
       <import feature="org.lunifera.ecview.feature.jetty" version="0.9.1" match="equivalent"/>
       <import feature="org.lunifera.ecview.feature.runtimeonly" version="0.9.1" match="equivalent"/>
       <import feature="org.lunifera.runtime.feature.typeprovider.bundlespace" version="0.9.1" match="equivalent"/>
